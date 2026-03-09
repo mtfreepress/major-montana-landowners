@@ -1,6 +1,6 @@
 # Major Montana landowners analysis
 
-This is a Python script for taking [Montana Cadastral](https://svc.mt.gov/msl/cadastral/) parcel data and processing it to identify Montana's largest landowners by geographic expanse.
+This is a set of Python scripts for taking [Montana Cadastral](https://svc.mt.gov/msl/cadastral/) parcel data and processing it to identify Montana's largest landowners by geographic expanse.
 
 ## Data notes
 
