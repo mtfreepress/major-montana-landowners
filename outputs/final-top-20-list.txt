@@ -1,0 +1,195 @@
+#1 / GALT RANCH
+346,596 acres - 819 parcels
+  Includes:
+    SUN COULEE LLC --> 4,533 acres/ 19 parcels
+    71 RANCH LP --> 249,141 acres/ 616 parcels
+    GALT RANCH LP --> 92,922 acres/ 182 parcels
+    GALT ERROL T --> 1 acres/ 1 parcels
+    GALT ERROL T & SHARRIE K --> 0 acres/ 1 parcels
+
+
+#2 / FARMLAND RESERVE INC
+320,169 acres - 660 parcels
+  Includes:
+    FARMLAND RESERVE, INC --> 18,197 acres/ 30 parcels
+    FARMLAND RESERVE INC --> 301,772 acres/ 628 parcels
+    FARMLAND RESERVES INC --> 200 acres/ 2 parcels
+
+
+#3 / BROKEN O LAND & LIVESTOCK LLC
+291,871 acres - 780 parcels
+  Includes:
+    PV RANCH COMPANY LLC --> 116,672 acres/ 212 parcels
+    PV RANCH CO LLC --> 16,313 acres/ 32 parcels
+    FORT PEASE COMM PASTURE --> 20,847 acres/ 41 parcels
+    BROKEN O LAND & LIVESTOCK LLC --> 119,111 acres/ 454 parcels
+    KROENKE LAND & LIVESTOCK LLC --> 12,485 acres/ 25 parcels
+    KROENKE LAND & LIVESTOCK CO LLC --> 3,332 acres/ 10 parcels
+    KROENKE LAND & LIVESTOCK --> 651 acres/ 2 parcels
+    KROENKE LAND & LIVESTOCK COMPANY LLC --> 539 acres/ 1 parcels
+    FORT PEASE COMMUNITY PASTURE INC --> 1,280 acres/ 2 parcels
+    FORT PEASE COMMUNITY PASTURE, INC --> 640 acres/ 1 parcels
+
+
+#4 / GREEN DIAMOND RESOURCE COMPANY
+291,803 acres - 644 parcels
+  Includes:
+    GREEN DIAMOND RESOURCE COMPANY --> 291,803 acres/ 644 parcels
+
+
+#5 / WILKS BROTHERS
+275,634 acres - 705 parcels
+  Includes:
+    WILKS RANCH MONTANA LTD --> 271,093 acres/ 690 parcels
+    WILKS RANCH MONTANA LTD A TEXAS DOMESTIC LIMITED PARTNERSHIP --> 1,546 acres/ 3 parcels
+    WILKS JOANN --> 720 acres/ 3 parcels
+    WILKS STACI --> 760 acres/ 4 parcels
+    WILKS FARRIS --> 766 acres/ 3 parcels
+    WILKS DAN --> 749 acres/ 2 parcels
+
+
+#6 / COFFEE-NEFSY
+238,831 acres - 503 parcels
+  Includes:
+    COFFEE NEFSY LIMITED PARTNERSHIP --> 184,258 acres/ 389 parcels
+    COFFEE-NEFSY LIMITED PARTNERSHIP --> 4,119 acres/ 7 parcels
+    COFFEE CATTLE COMPANY --> 47 acres/ 2 parcels
+    COFFEE-NEFSY LP --> 2,260 acres/ 4 parcels
+    COFFEE VIRGINIA NEFSY --> 1 acres/ 1 parcels
+    COFFEE RANCH LLC --> 48,144 acres/ 97 parcels
+    COFFEE VIRGINIA N --> 0 acres/ 1 parcels
+    COFFEE VIRGINIA A --> 1 acres/ 1 parcels
+    COFFEE, VIRGINIA A & CAREN L --> 0 acres/ 1 parcels
+
+
+#7 / SUNLIGHT RANCH COMPANY
+236,714 acres - 713 parcels
+  Includes:
+    SUNLIGHT RANCH COMPANY --> 235,991 acres/ 706 parcels
+    SUNLIGHT RANCH COMPANY A WYOMING CORPORATION --> 2 acres/ 1 parcels
+    SUNLIGHT RANCH COMPANY INC --> 720 acres/ 6 parcels
+
+
+#8 / AMERICAN PRAIRIE
+144,195 acres - 601 parcels
+  Includes:
+    AMERICAN PRAIRIE FOUNDATION --> 141,873 acres/ 587 parcels
+    5 MOUNTAIN RANCH LLC --> 2,321 acres/ 14 parcels
+
+
+#9 / NATURE CONSERVANCY
+143,346 acres - 390 parcels
+  Includes:
+    NATURE CONSERVANCY --> 13,074 acres/ 41 parcels
+    NATURE CONSERVANCY THE --> 10,464 acres/ 66 parcels
+    THE NATURE CONSERVANCY --> 34,722 acres/ 93 parcels
+    NATURE CONSERVANCY (THE) --> 3,486 acres/ 9 parcels
+    MONTANA CHECKERBOARD LLC --> 81,601 acres/ 181 parcels
+
+
+#10 / GREAT NORTHERN PROPERTIES
+141,566 acres - 290 parcels
+  Includes:
+    GREAT NORTHERN PROPERTIES --> 18,670 acres/ 42 parcels
+    GREAT NORTHERN PROPERTIES LP --> 80,467 acres/ 147 parcels
+    GREAT NORTHERN PROP LTD PTNSH --> 30,681 acres/ 62 parcels
+    GREAT NORTHERN PROPERTIES LIMITED PARTNERSHIP --> 6,559 acres/ 14 parcels
+    GREAT NORTHERN PROPERTIES LTD PTNSHP --> 2,738 acres/ 17 parcels
+    GREAT NORTHERN PROPERTIES LMTD PTNSHP --> 50 acres/ 1 parcels
+    GREAT NORTHERN PROPERTIES LTD PTNSH --> 640 acres/ 1 parcels
+    GREAT NORTHERN PROPERTIES LTD PNTSHP --> 240 acres/ 1 parcels
+    GREAT NORTHERN PROPERTY LTD PTNSHP --> 240 acres/ 2 parcels
+    GREAT NTHRN PROP LTD PRTNRSHP --> 1,280 acres/ 3 parcels
+
+
+#11 / STIMSON LUMBER CO
+129,177 acres - 389 parcels
+  Includes:
+    STIMSON LUMBER CO --> 118,741 acres/ 325 parcels
+    STIMSON LUMBER COMPANY --> 9,682 acres/ 61 parcels
+    STIMSON LUMBER --> 60 acres/ 1 parcels
+    STIMSOM LUMBER COMPANY --> 694 acres/ 2 parcels
+
+
+#12 / TED TURNER
+128,557 acres - 281 parcels
+  Includes:
+    TURNER MONTANA PROPERTIES LLC --> 76,035 acres/ 147 parcels
+    TURNER ENTERPRISES INC --> 52,399 acres/ 132 parcels
+    TURNER LAND HOLDINGS LLC --> 122 acres/ 1 parcels
+    TURNER MANAGEMENT ENTERPRISES LLC --> 0 acres/ 1 parcels
+
+
+#13 / N5B CAPITAL
+127,172 acres - 324 parcels
+  Includes:
+    FLATHEAD RIDGE RANCH LLC --> 23,284 acres/ 69 parcels
+    FRR HUBBARD LLC --> 17,493 acres/ 36 parcels
+    FRR MURR PEAK LLC --> 16,860 acres/ 42 parcels
+    FRR BROWNS MEADOW LLC --> 17,491 acres/ 40 parcels
+    FRR LOST PRAIRIE LLC --> 17,492 acres/ 44 parcels
+    FRR SICKLER CREEK LLC --> 16,849 acres/ 39 parcels
+    FRR RODGERS LAKE LLC --> 17,451 acres/ 45 parcels
+    LOOKOUT RIDGE LLC --> 250 acres/ 9 parcels
+
+
+#14 / SPP MONTANA LLC
+122,448 acres - 330 parcels
+  Includes:
+    SPP MONTANA LLC --> 117,369 acres/ 308 parcels
+    ELBERTON TIMBERLANDS LLC --> 922 acres/ 2 parcels
+    HW GULCH HOLDINGS LLC --> 610 acres/ 2 parcels
+    PATTON PATRICK C --> 3,547 acres/ 17 parcels
+    TREESAP LLC --> 0 acres/ 1 parcels
+
+
+#15 / HILLENBRAND JOHN
+117,724 acres - 285 parcels
+  Includes:
+    HILLENBRAND JOHN --> 117,724 acres/ 285 parcels
+
+
+#16 / BEAVERHEAD RANCH PROPERTY LLC
+113,049 acres - 406 parcels
+  Includes:
+    BEAVERHEAD RANCH PROPERTY LLC --> 113,049 acres/ 406 parcels
+
+
+#17 / HEAL HOLDINGS LLC
+96,157 acres - 307 parcels
+  Includes:
+    HEAL HOLDINGS LLC --> 96,157 acres/ 307 parcels
+
+
+#18 / CHERRY CREEK SHEEP CO
+95,501 acres - 206 parcels
+  Includes:
+    CHERRY CREEK SHEEP CO --> 59,477 acres/ 111 parcels
+    JT BREWER LLC --> 31,643 acres/ 77 parcels
+    BREWER JASON --> 320 acres/ 1 parcels
+    BREWER JASON & TANYA --> 2,295 acres/ 7 parcels
+    BREWER JASON T & TANYA J --> 1,441 acres/ 7 parcels
+    BREWER JASON T & TANYA JEAN --> 10 acres/ 1 parcels
+    CHERRY CREEK SHEEP CO INC --> 160 acres/ 1 parcels
+    BREWER JASON & TANYA J --> 156 acres/ 1 parcels
+
+
+#19 / PADLOCK RANCH COMPANY
+91,563 acres - 336 parcels
+  Includes:
+    PADLOCK RANCH CO --> 41,019 acres/ 173 parcels
+    SCOTT LAND & LIVESTOCK LTD PARTNERSHIP --> 6,364 acres/ 36 parcels
+    PADLOCK RANCH COMPANY --> 8,739 acres/ 32 parcels
+    PADLOCK RANCH CO INC --> 35,122 acres/ 92 parcels
+    FIRST INTERSTATE BANK OF SHERIDAN CONS --> 320 acres/ 3 parcels
+
+
+#20 / MONTGOMERY RANCH
+86,803 acres - 168 parcels
+  Includes:
+    MONTGOMERY RANCH --> 80 acres/ 1 parcels
+    MONTGOMERY RANCH CO --> 71,671 acres/ 141 parcels
+    MONTGOMERY RANCH COMPANY --> 14,820 acres/ 25 parcels
+    BETHKE CAMERON --> 232 acres/ 1 parcels
+
+
