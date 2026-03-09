@@ -39,12 +39,17 @@ Goal: 1) Identify Montana's 10 largest landowners by acreage and 2) produce Geod
 General process: We're using the Cadastral data described above to look for ownership groups.
 
 **Analysis files**
-- `explore.ipynb` -- A scratchpad notebook for one-off analysis, e.g. mapping XXXX
-- `major-landowners-naive-analysis.ipynb` -- This was our 'first pass' analysis, which simply grouped parcels by `OwnerName`, sums the acreage for each unique private owner, presenting the results as a ranked list. It naively assumes that each unique OwnerName in the dataset is a unique "owner." It's very clear that isn't the best way to do this — Ted Turner, for example, owns some of his properties as `TURNER ENTERPRISES INC` and others as `TURNER LAND HOLDINGS LLC`.
-- `major-landowners-final-analysis.ipynb` - XXXX
+
+- `major-landowners-naive-analysis.ipynb` -- This was our 'first pass' analysis, which simply grouped parcels by `OwnerName`, sums the acreage for each unique private owner, presenting the results as a ranked list. It naively assumes that each unique OwnerName in the dataset is a unique "owner." It's very clear that isn't the best way to do this — Ted Turner, for example, owns some of his properties as `TURNER ENTERPRISES INC` and others as `TURNER LAND HOLDINGS LLC`. Public entities listed in `known-public-landowners.json` are excluded.
+- `shared-address-identification.ipynb` -- A workflow for identifying owner name variants based on ownership addresses. IDs places where owner name variants share mailing addresses, indicating they belong to the same real-world owner. Output of this was placed manually in `owner-name-cleaning.json`.
+- `major-landowners-final-analysis.ipynb` - Second/final pass analysis that also accounts for owner name variations, using name variations specified in `owner-name-groupings.json`. This also exports geodata files for each of the top 20 landowners to `geodata-outputs/` and a version of the data with owner groups appended to `cleaned/`
+- `explore.ipynb` -- A scratchpad notebook for one-off analysis, e.g. mapping the parcels associated with specific owners.
 
 **Config files** — these are manually curated in a JSON format guide the analysis scripts
 - `known-public-landowners.json` -- Owner names that represent public entities, i.e. federal and state agencies, as well as tribes. Eric produced this by inspection but probably missed some small public landowners. There are hundreds of items on this list  because the naming conventions for public agencies appear to be wildly inconsistent.
-- `owner-name-cleaning.json` -- Groups of major owners. These were produced by Eric by XXXX process.
+- `owner-name-cleaning.json` -- Groups of owner names that should be classified as a group (i.e. they're really the same owner). This is focused on 
 
 **Output files** 
+- `naive-top-10.json` -- output from "naive" analysis that doesn't account for owner name variation
+- `final-top-20.json` -- ouutput from final analysis as a JSON object
+- `final-top-20.txt` -- easier-to-read output from final analysis, also includes breakdowns for ownership by owner name variants.
