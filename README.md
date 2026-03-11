@@ -24,7 +24,7 @@ Key fields in the parcel data include the following:
 - `OwnerName` -- The listed owner name.
 - `OwnerAddre`, `OwnerAdd_1`, `OwnerCity`, etc. etc. - Fields that describe the owner's address -- i.e. where the tax bill is sent. This is the address field we're focused on
 - `AddressLin`, `AddressL_1`, etc. -- Fields that describe the property's physical address
-- `PropType` -- Residential, Commercial, etc. (This can be a little deciving because parcels can actually include components with different property types )
+- `PropType` -- Residential, Commercial, etc. (This can be a little deceiving because parcels can actually include components with different property types)
 
 ## Analysis tools
 
