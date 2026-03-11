@@ -26,13 +26,13 @@ Key fields in the parcel data include the following:
 - `AddressLin`, `AddressL_1`, etc. -- Fields that describe the property's physical address
 - `PropType` -- Residential, Commercial, etc. (This can be a little deciving because parcels can actually include components with different property types )
 
-# Analysis tools
+## Analysis tools
 
 This analysis is done with iPython notebooks using Python's pandas/geopandas libraries. Eric was running code inside Microsoft VS Code, using a Python 3.13.0 kernal.
 
 The `geodataframe.explore()` command we're using to generate interactive "slippy" maps may take some extra configuration depending on how you're running Python. Documentation on that [is here](https://geopandas.org/en/stable/docs/user_guide/interactive_mapping.html) — I had to do a bit of troubleshooting to get the Folium library the interactives use running without issue on my system.
 
-# Analysis notes
+## Analysis notes
 
 Goal: 1) Identify Montana's 10 largest landowners by acreage and 2) produce Geodata (GeoJson) files with the bounds of their holdings to allow easy mapping in MTFP coverage products.
 
