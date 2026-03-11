@@ -4,7 +4,8 @@
         "alternatesOwnershipNames": [
             "SUNLIGHT RANCH COMPANY", 
             "SUNLIGHT RANCH COMPANY A WYOMING CORPORATION", 
-            "SUNLIGHT RANCH COMPANY INC"
+            "SUNLIGHT RANCH COMPANY INC",
+            "SUNLIGHT RANCH LLC"
         ]
     },
     {
@@ -18,7 +19,7 @@
         ]
     },
     {
-        "owner": "BROKEN O LAND & LIVESTOCK LLC",
+        "owner": "KROENKE GROUP",
         "alternatesOwnershipNames": [
             "BROKEN O LAND & LIVESTOCK LLC",
             "FORT PEASE COMM PASTURE",
@@ -29,7 +30,9 @@
             "KROENKE LAND & LIVESTOCK COMPANY LLC",
             "KROENKE LAND & LIVESTOCK LLC",
             "PV RANCH CO LLC",
-            "PV RANCH COMPANY LLC"
+            "PV RANCH COMPANY LLC",
+            "PV RANCH HOLDINGS LLC",
+            "PV ANTELOPE CREEK HOLDINGS LLC"
         ]
     },
     {
@@ -37,7 +40,8 @@
         "alternatesOwnershipNames": [
             "FARMLAND RESERVE INC",
             "FARMLAND RESERVE, INC",
-            "FARMLAND RESERVES INC"
+            "FARMLAND RESERVES INC",
+            "FARMLAND RESERVE, INC."
         ]
     },
     {
@@ -85,16 +89,20 @@
     {
         "owner": "GREAT NORTHERN PROPERTIES",
         "alternatesOwnershipNames": [
-           "GREAT NORTHERN PROP LTD PTNSH",
             "GREAT NORTHERN PROPERTIES",
-            "GREAT NORTHERN PROPERTIES LIMITED PARTNERSHIP",
-            "GREAT NORTHERN PROPERTIES LMTD PTNSHP",
+            "GREAT NORTHERN PROP LTD PTNSH",
+            "GREAT NTHRN PROP LTD PRTNRSHP",
+            "GREAT NORTHERN PROPERTY LTD PTNSHP",
             "GREAT NORTHERN PROPERTIES LP",
             "GREAT NORTHERN PROPERTIES LTD PNTSHP",
             "GREAT NORTHERN PROPERTIES LTD PTNSH",
             "GREAT NORTHERN PROPERTIES LTD PTNSHP",
-            "GREAT NORTHERN PROPERTY LTD PTNSHP",
-            "GREAT NTHRN PROP LTD PRTNRSHP"
+            "GREAT NORTHERN PROPERTIES LMTD PTNSHP",
+            "GREAT NORTHERN PROPERTIES LIMITED PARTNE",
+            "GREAT NORTHERN PROPERTIES LIMITED PARTNERSHIP"
+
+            
+            
         ]
     },
     {
@@ -105,17 +113,6 @@
             "PATTON PATRICK C",
             "SPP MONTANA LLC",
             "TREESAP LLC"
-        ]
-    },
-    {
-        "owner": "MARK AND ROBYN JONES",
-        "alternatesOwnershipNames": [
-            "FRR BROWNS MEADOW LLC",
-            "FRR HUBBARD LLC",
-            "FRR LOST PRAIRIE LLC",
-            "FRR MURR PEAK LLC",
-            "FRR RODGERS LAKE LLC",
-            "FRR SICKLER CREEK LLC"
         ]
     },
     {
@@ -134,6 +131,7 @@
             "BOOTH LAND & LIVESTOCK",
             "BOOTH LAND & LIVESTOCK CO",
             "BOOTH LAND & LIVESTOCK LLC",
+            "BOOTH LAND AND LIVESTOCK LLC &",
             "INTERMOUNTAIN WEST LIVESTOCK LLC"
         ]
     },
@@ -154,9 +152,12 @@
         "owner": "SINGLETON FARMS",
         "alternatesOwnershipNames": [
             "ALFRED JORDAN INC",
+            "JORDAN ALFRED L",
+            "JORDAN ALFRED",
             "SINGLETON BROS INC",
             "SINGLETON FARMS",
-            "SINGLETON LARRY JAY"
+            "SINGLETON LARRY JAY",
+            "SINGLETON MARY MARGARET"
         ]
     },
     {
@@ -174,7 +175,9 @@
         "owner": "SIEBEN RANCH CO",
         "alternatesOwnershipNames": [
             "SIEBEN RANCH CO",
-            "SIEBEN RANCH COMPANY"
+            "SIEBEN RANCH COMPANY",
+            "SIEBEN LIVESTOCK CO",
+            "SIEBEN LIVESTOCK COMPANY"
         ]
     },
     {
@@ -215,6 +218,17 @@
         "alternatesOwnershipNames": [
             "MONTANA CHECKERBOARD LLC",
             "NATURE CONSERVANCY",
+            "NATURE CONSERVANCY",
+            "NATURE CONSERVANCY THE",
+            "NATURE CONSERVANCY OF MONTANA",
+            "NATURE CONSERVANCY  THE",
+            "NATURE CONSERVANCY  (DURR)",
+            "NATURE CONSERVANCY (PEEBLES)",
+            "NATURE CONSERVANCY -GLEASON",
+            "NATURE CONSERVANCY THE  (GUTHRIE)",
+            "NATURE CONSERVANCY DISTRICT OF COLUMBIA NON PROFIT CORP",
+            "NATURE CONSERVANCY A DISTRICT OF COLUMBIA NON PROFIT CORPORATION",
+            "THE NATURE CONSERVANCY", "NATURE CONSERVANCY (THE)",
             "NATURE CONSERVANCY (THE)",
             "NATURE CONSERVANCY THE",
             "THE NATURE CONSERVANCY"

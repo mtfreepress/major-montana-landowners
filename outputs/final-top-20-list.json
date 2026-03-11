@@ -13,31 +13,34 @@
         "Rank":1
     },
     {
-        "Owner":"FARMLAND RESERVE INC",
-        "NumParcels":653,
-        "TotalAcres":316931.462,
-        "IncludedOwnerNames":[
-            "FARMLAND RESERVE, INC",
-            "FARMLAND RESERVE INC",
-            "FARMLAND RESERVES INC"
-        ],
-        "Rank":2
-    },
-    {
-        "Owner":"BROKEN O LAND & LIVESTOCK LLC",
-        "NumParcels":780,
-        "TotalAcres":291870.037,
+        "Owner":"KROENKE GROUP",
+        "NumParcels":889,
+        "TotalAcres":331063.014,
         "IncludedOwnerNames":[
             "PV RANCH COMPANY LLC",
             "PV RANCH CO LLC",
             "FORT PEASE COMM PASTURE",
+            "PV RANCH HOLDINGS LLC",
             "BROKEN O LAND & LIVESTOCK LLC",
+            "PV ANTELOPE CREEK HOLDINGS LLC",
             "KROENKE LAND & LIVESTOCK LLC",
             "KROENKE LAND & LIVESTOCK CO LLC",
             "KROENKE LAND & LIVESTOCK",
             "KROENKE LAND & LIVESTOCK COMPANY LLC",
             "FORT PEASE COMMUNITY PASTURE INC",
             "FORT PEASE COMMUNITY PASTURE, INC"
+        ],
+        "Rank":2
+    },
+    {
+        "Owner":"FARMLAND RESERVE INC",
+        "NumParcels":670,
+        "TotalAcres":324889.022,
+        "IncludedOwnerNames":[
+            "FARMLAND RESERVE, INC",
+            "FARMLAND RESERVE INC",
+            "FARMLAND RESERVE, INC.",
+            "FARMLAND RESERVES INC"
         ],
         "Rank":3
     },
@@ -65,6 +68,18 @@
         "Rank":5
     },
     {
+        "Owner":"SUNLIGHT RANCH COMPANY",
+        "NumParcels":733,
+        "TotalAcres":240805.725,
+        "IncludedOwnerNames":[
+            "SUNLIGHT RANCH COMPANY",
+            "SUNLIGHT RANCH LLC",
+            "SUNLIGHT RANCH COMPANY A WYOMING CORPORATION",
+            "SUNLIGHT RANCH COMPANY INC"
+        ],
+        "Rank":6
+    },
+    {
         "Owner":"COFFEE-NEFSY",
         "NumParcels":503,
         "TotalAcres":238831.067,
@@ -79,18 +94,28 @@
             "COFFEE VIRGINIA A",
             "COFFEE, VIRGINIA A & CAREN L"
         ],
-        "Rank":6
+        "Rank":7
     },
     {
-        "Owner":"SUNLIGHT RANCH COMPANY",
-        "NumParcels":713,
-        "TotalAcres":236713.603,
+        "Owner":"NATURE CONSERVANCY",
+        "NumParcels":454,
+        "TotalAcres":157605.619,
         "IncludedOwnerNames":[
-            "SUNLIGHT RANCH COMPANY",
-            "SUNLIGHT RANCH COMPANY A WYOMING CORPORATION",
-            "SUNLIGHT RANCH COMPANY INC"
+            "NATURE CONSERVANCY",
+            "NATURE CONSERVANCY THE",
+            "NATURE CONSERVANCY OF MONTANA",
+            "NATURE CONSERVANCY  THE",
+            "NATURE CONSERVANCY  (DURR)",
+            "NATURE CONSERVANCY (PEEBLES)",
+            "NATURE CONSERVANCY -GLEASON",
+            "NATURE CONSERVANCY THE  (GUTHRIE)",
+            "NATURE CONSERVANCY DISTRICT OF COLUMBIA NON PROFIT CORP",
+            "NATURE CONSERVANCY A DISTRICT OF COLUMBIA NON PROFIT CORPORATION",
+            "THE NATURE CONSERVANCY",
+            "NATURE CONSERVANCY (THE)",
+            "MONTANA CHECKERBOARD LLC"
         ],
-        "Rank":7
+        "Rank":8
     },
     {
         "Owner":"AMERICAN PRAIRIE",
@@ -100,25 +125,12 @@
             "AMERICAN PRAIRIE FOUNDATION",
             "5 MOUNTAIN RANCH LLC"
         ],
-        "Rank":8
-    },
-    {
-        "Owner":"NATURE CONSERVANCY",
-        "NumParcels":389,
-        "TotalAcres":142986.131,
-        "IncludedOwnerNames":[
-            "NATURE CONSERVANCY",
-            "NATURE CONSERVANCY THE",
-            "THE NATURE CONSERVANCY",
-            "NATURE CONSERVANCY (THE)",
-            "MONTANA CHECKERBOARD LLC"
-        ],
         "Rank":9
     },
     {
         "Owner":"GREAT NORTHERN PROPERTIES",
-        "NumParcels":292,
-        "TotalAcres":142849.817,
+        "NumParcels":294,
+        "TotalAcres":144144.127,
         "IncludedOwnerNames":[
             "GREAT NORTHERN PROPERTIES",
             "GREAT NORTHERN PROPERTIES LP",
@@ -129,9 +141,22 @@
             "GREAT NORTHERN PROPERTIES LTD PTNSH",
             "GREAT NORTHERN PROPERTIES LTD PNTSHP",
             "GREAT NORTHERN PROPERTY LTD PTNSHP",
+            "GREAT NORTHERN PROPERTIES LIMITED PARTNE",
             "GREAT NTHRN PROP LTD PRTNRSHP"
         ],
         "Rank":10
+    },
+    {
+        "Owner":"SIEBEN RANCH CO",
+        "NumParcels":303,
+        "TotalAcres":129706.324,
+        "IncludedOwnerNames":[
+            "SIEBEN LIVESTOCK CO",
+            "SIEBEN LIVESTOCK COMPANY",
+            "SIEBEN RANCH CO",
+            "SIEBEN RANCH COMPANY"
+        ],
+        "Rank":11
     },
     {
         "Owner":"STIMSON LUMBER CO",
@@ -143,7 +168,7 @@
             "STIMSON LUMBER",
             "STIMSOM LUMBER COMPANY"
         ],
-        "Rank":11
+        "Rank":12
     },
     {
         "Owner":"N5B CAPITAL",
@@ -159,7 +184,7 @@
             "FRR RODGERS LAKE LLC",
             "LOOKOUT RIDGE LLC"
         ],
-        "Rank":12
+        "Rank":13
     },
     {
         "Owner":"SPP MONTANA LLC",
@@ -172,7 +197,7 @@
             "PATTON PATRICK C",
             "TREESAP LLC"
         ],
-        "Rank":13
+        "Rank":14
     },
     {
         "Owner":"HILLENBRAND JOHN",
@@ -181,7 +206,7 @@
         "IncludedOwnerNames":[
             "HILLENBRAND JOHN"
         ],
-        "Rank":14
+        "Rank":15
     },
     {
         "Owner":"TED TURNER",
@@ -193,7 +218,7 @@
             "TURNER LAND HOLDINGS LLC",
             "TURNER MANAGEMENT ENTERPRISES LLC"
         ],
-        "Rank":15
+        "Rank":16
     },
     {
         "Owner":"BEAVERHEAD RANCH PROPERTY LLC",
@@ -202,7 +227,7 @@
         "IncludedOwnerNames":[
             "BEAVERHEAD RANCH PROPERTY LLC"
         ],
-        "Rank":16
+        "Rank":17
     },
     {
         "Owner":"HEAL HOLDINGS LLC",
@@ -211,7 +236,7 @@
         "IncludedOwnerNames":[
             "HEAL HOLDINGS LLC"
         ],
-        "Rank":17
+        "Rank":18
     },
     {
         "Owner":"CHERRY CREEK SHEEP CO",
@@ -227,7 +252,7 @@
             "CHERRY CREEK SHEEP CO INC",
             "BREWER JASON & TANYA J"
         ],
-        "Rank":18
+        "Rank":19
     },
     {
         "Owner":"PADLOCK RANCH COMPANY",
@@ -239,18 +264,6 @@
             "PADLOCK RANCH COMPANY",
             "PADLOCK RANCH CO INC",
             "FIRST INTERSTATE BANK OF SHERIDAN CONS"
-        ],
-        "Rank":19
-    },
-    {
-        "Owner":"MONTGOMERY RANCH",
-        "NumParcels":168,
-        "TotalAcres":86802.953,
-        "IncludedOwnerNames":[
-            "MONTGOMERY RANCH",
-            "MONTGOMERY RANCH CO",
-            "MONTGOMERY RANCH COMPANY",
-            "BETHKE CAMERON"
         ],
         "Rank":20
     }
