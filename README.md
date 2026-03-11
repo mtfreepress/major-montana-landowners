@@ -47,7 +47,7 @@ General process: We're using the Cadastral data described above to look for owne
 
 **Config files** — these are manually curated in a JSON format guide the analysis scripts
 - `known-public-landowners.json` -- Owner names that represent public entities, i.e. federal and state agencies, as well as tribes. Eric produced this by inspection but probably missed some small public landowners. There are hundreds of items on this list  because the naming conventions for public agencies appear to be wildly inconsistent.
-- `owner-name-cleaning.json` -- Groups of owner names that should be classified as a group (i.e. they're really the same owner). This is focused on 
+- `owner-name-cleaning.json` -- Groups of owner names that should be classified as a group (i.e. they're really the same owner). This is focused on large land owners. It was developed by looking at name variants (e.g., `TURNER ENTERPRISES INC` vs `TURNER LAND HOLDINGS LLC`, property location and the addresses used for mailing tax bills). There is some discretion involved in these groupings and we should cross-check them with other resources where possible.
 
 **Output files** 
 - `naive-top-10.json` -- output from "naive" analysis that doesn't account for owner name variation
