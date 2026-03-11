@@ -51,5 +51,5 @@ General process: We're using the Cadastral data described above to look for owne
 
 **Output files** 
 - `naive-top-10.json` -- output from "naive" analysis that doesn't account for owner name variation
-- `final-top-20.json` -- ouutput from final analysis as a JSON object
+- `final-top-20.json` -- output from final analysis as a JSON object
 - `final-top-20.txt` -- easier-to-read output from final analysis, also includes breakdowns for ownership by owner name variants.
