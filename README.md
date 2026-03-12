@@ -40,13 +40,16 @@ General process: We're using the Cadastral data described above to look for owne
 
 **Analysis files**
 
+First pass/"naive" analysis —
 - `major-landowners-naive-analysis.ipynb` -- This was our 'first pass' analysis, which simply grouped parcels by `OwnerName`, sums the acreage for each unique private owner, presenting the results as a ranked list. It naively assumes that each unique OwnerName in the dataset is a unique "owner." It's very clear that isn't the best way to do this — Ted Turner, for example, owns some of his properties as `TURNER ENTERPRISES INC` and others as `TURNER LAND HOLDINGS LLC`. Public entities listed in `known-public-landowners.json` are excluded.
-- `shared-address-identification.ipynb` -- A workflow for identifying owner name variants based on ownership addresses. IDs places where owner name variants share mailing addresses, indicating they belong to the same real-world owner. Output of this was placed manually in `owner-name-cleaning.json`.
-- `major-landowners-final-analysis.ipynb` - Second/final pass analysis that also accounts for owner name variations, using name variations specified in `owner-name-groupings.json`. This also exports geodata files for each of the top 20 landowners to `geodata-outputs/` and a version of the data with owner groups appended to `cleaned/`
+
+Second pass/final analysis —
+- `shared-address-identification.ipynb` -- A workflow for identifying owner name variants based on ownership addresses. This IDs places where owner name variants share mailing addresses, indicating they belong to the same real-world owner. Output of this was placed manually in `owner-name-cleaning.json`.
+- `major-landowners-final-analysis.ipynb` - Second/final pass analysis that accounts for owner name variations in addition to factors in the first-pass analysis, using name variations specified in `owner-name-groupings.json`. This also exports geodata files for each of the top 20 landowners to `geodata-outputs/`. Output is written to `outputs/final-top-20-list.txt`.
 - `explore.ipynb` -- A scratchpad notebook for one-off analysis, e.g. mapping the parcels associated with specific owners.
 
 **Config files** — these are manually curated in a JSON format guide the analysis scripts
-- `known-public-landowners.json` -- Owner names that represent public entities, i.e. federal and state agencies, as well as tribes. Eric produced this by inspection but probably missed some small public landowners. There are hundreds of items on this list  because the naming conventions for public agencies appear to be wildly inconsistent.
+- `known-public-landowners.json` -- Owner names that represent public entities, i.e. federal and state agencies, as well as tribes. Eric produced this by inspection but probably missed some small public landowners that aren't significant for our analysis. There are hundreds of items on this list  because the naming conventions for public agencies appear to be wildly inconsistent.
 - `owner-name-cleaning.json` -- Groups of owner names that should be classified as a group (i.e. they're really the same owner). This is focused on large land owners. It was developed by looking at name variants (e.g., `TURNER ENTERPRISES INC` vs `TURNER LAND HOLDINGS LLC`, property location and the addresses used for mailing tax bills). There is some discretion involved in these groupings and we should cross-check them with other resources where possible.
 
 **Output files** 
