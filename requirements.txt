@@ -1,0 +1,7 @@
+pandas
+geopandas
+pyogrio
+
+# Used only by: python explore.py OWNER --map-html
+folium
+mapclassify
