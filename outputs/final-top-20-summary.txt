@@ -1,0 +1,309 @@
+MONTANA'S TOP 20 PRIVATE LANDOWNERS
+====================================
+
+A reporting summary based on outputs/final-top-20-list.json and the
+Montana Cadastral parcel attributes. Acreage is the source TotalAcres
+field; parcels are cadastral records, not necessarily separate ranches
+or contiguous holdings. Owner-name variants are manually consolidated.
+
+#1 GALT RANCH
+Total holdings: 346,571 acres across 821 parcels
+Counties (11): Broadwater, Garfield, Lewis and Clark, Madison, Meagher, Mineral, Musselshell, Rosebud, Sanders, Treasure, Yellowstone
+County breakdown:
+  - Rosebud: 162,098 acres (46.8%); 433 parcels
+  - Meagher: 127,988 acres (36.9%); 257 parcels
+  - Garfield: 34,283 acres (9.9%); 63 parcels
+  - Broadwater: 15,933 acres (4.6%); 42 parcels
+  - Lewis and Clark: 3,228 acres (0.9%); 11 parcels
+  - Treasure: 1,430 acres (0.4%); 5 parcels
+  - Yellowstone: 904 acres (0.3%); 3 parcels
+  - Musselshell: 374 acres (0.1%); 2 parcels
+  - Sanders: 329 acres (0.1%); 3 parcels
+  - Mineral: 4 acres (0.0%); 1 parcel
+  - Madison: 0 acres (0.0%); 1 parcel
+Other potentially useful numbers:
+  - Largest county concentration: Rosebud, 162,098 acres (46.8%)
+  - Average acreage per parcel: 422.1
+  - Largest recorded parcel: 870 acres in Rosebud (parcel ID 29215605101011870)
+  - Consolidated from 5 recorded owner names
+
+#2 KROENKE GROUP
+Total holdings: 331,063 acres across 889 parcels
+Counties (7): Cascade, Lewis and Clark, Madison, Rosebud, Teton, Treasure, Yellowstone
+County breakdown:
+  - Treasure: 98,988 acres (29.9%); 190 parcels
+  - Rosebud: 82,526 acres (24.9%); 184 parcels
+  - Teton: 58,429 acres (17.6%); 226 parcels
+  - Lewis and Clark: 53,280 acres (16.1%); 205 parcels
+  - Madison: 17,007 acres (5.1%); 38 parcels
+  - Yellowstone: 13,431 acres (4.1%); 23 parcels
+  - Cascade: 7,402 acres (2.2%); 23 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Treasure, 98,988 acres (29.9%)
+  - Average acreage per parcel: 372.4
+  - Largest recorded parcel: 1,260 acres in Rosebud (parcel ID 29204401101010000)
+  - Consolidated from 12 recorded owner names
+
+#3 FARMLAND RESERVE INC
+Total holdings: 324,889 acres across 670 parcels
+Counties (11): Carter, Custer, Fallon, Garfield, Liberty, Pondera, Rosebud, Toole, Treasure, Wheatland, Yellowstone
+County breakdown:
+  - Custer: 126,081 acres (38.8%); 235 parcels
+  - Wheatland: 77,455 acres (23.8%); 155 parcels
+  - Yellowstone: 46,870 acres (14.4%); 109 parcels
+  - Carter: 25,954 acres (8.0%); 51 parcels
+  - Garfield: 18,197 acres (5.6%); 30 parcels
+  - Pondera: 14,474 acres (4.5%); 52 parcels
+  - Fallon: 7,958 acres (2.4%); 17 parcels
+  - Rosebud: 3,794 acres (1.2%); 7 parcels
+  - Treasure: 2,747 acres (0.8%); 8 parcels
+  - Liberty: 693 acres (0.2%); 2 parcels
+  - Toole: 668 acres (0.2%); 4 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Custer, 126,081 acres (38.8%)
+  - Average acreage per parcel: 484.9
+  - Largest recorded parcel: 1,048 acres in Custer (parcel ID 14145631403010000)
+  - Consolidated from 4 recorded owner names
+
+#4 GREEN DIAMOND MONTANA TIMBERLANDS LLC
+Total holdings: 290,522 acres across 641 parcels
+Counties (3): Flathead, Lincoln, Sanders
+County breakdown:
+  - Sanders: 133,007 acres (45.8%); 296 parcels
+  - Lincoln: 95,732 acres (33.0%); 202 parcels
+  - Flathead: 61,783 acres (21.3%); 143 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Sanders, 133,007 acres (45.8%)
+  - Average acreage per parcel: 453.2
+  - Largest recorded parcel: 908 acres in Lincoln (parcel ID 56369103101010000)
+  - Consolidated from 1 recorded owner name
+
+#5 WILKS BROTHERS
+Total holdings: 242,734 acres across 645 parcels
+Counties (5): Dawson, Fergus, Golden Valley, Musselshell, Wheatland
+County breakdown:
+  - Fergus: 86,566 acres (35.7%); 289 parcels
+  - Musselshell: 64,398 acres (26.5%); 152 parcels
+  - Golden Valley: 49,897 acres (20.6%); 124 parcels
+  - Wheatland: 40,328 acres (16.6%); 77 parcels
+  - Dawson: 1,546 acres (0.6%); 3 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Fergus, 86,566 acres (35.7%)
+  - Average acreage per parcel: 376.3
+  - Largest recorded parcel: 658 acres in Wheatland (parcel ID 44170901101010000)
+  - Consolidated from 6 recorded owner names
+
+#6 SUNLIGHT RANCH COMPANY
+Total holdings: 239,286 acres across 726 parcels
+Counties (3): Big Horn, Carbon, Treasure
+County breakdown:
+  - Big Horn: 196,845 acres (82.3%); 585 parcels
+  - Carbon: 31,569 acres (13.2%); 122 parcels
+  - Treasure: 10,872 acres (4.5%); 19 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Big Horn, 196,845 acres (82.3%)
+  - Average acreage per parcel: 329.6
+  - Largest recorded parcel: 715 acres in Big Horn (parcel ID 22093606202010000)
+  - Consolidated from 4 recorded owner names
+
+#7 COFFEE-NEFSY
+Total holdings: 238,831 acres across 503 parcels
+Counties (4): Carbon, Custer, Rosebud, Yellowstone
+County breakdown:
+  - Custer: 143,748 acres (60.2%); 299 parcels
+  - Rosebud: 95,082 acres (39.8%); 201 parcels
+  - Carbon: 1 acres (0.0%); 2 parcels
+  - Yellowstone: 0 acres (0.0%); 1 parcel
+Other potentially useful numbers:
+  - Largest county concentration: Custer, 143,748 acres (60.2%)
+  - Average acreage per parcel: 474.8
+  - Largest recorded parcel: 676 acres in Custer (parcel ID 14105419101010000)
+  - Consolidated from 9 recorded owner names
+
+#8 NATURE CONSERVANCY
+Total holdings: 157,606 acres across 454 parcels
+Counties (13): Beaverhead, Cascade, Flathead, Gallatin, Glacier, Lewis and Clark, Lincoln, Missoula, Phillips, Pondera, Powell, Sheridan, Teton
+County breakdown:
+  - Missoula: 84,727 acres (53.8%); 189 parcels
+  - Phillips: 33,794 acres (21.4%); 89 parcels
+  - Teton: 20,537 acres (13.0%); 94 parcels
+  - Pondera: 6,495 acres (4.1%); 27 parcels
+  - Beaverhead: 4,241 acres (2.7%); 18 parcels
+  - Powell: 3,594 acres (2.3%); 7 parcels
+  - Sheridan: 1,145 acres (0.7%); 9 parcels
+  - Glacier: 955 acres (0.6%); 5 parcels
+  - Lewis and Clark: 927 acres (0.6%); 4 parcels
+  - Lincoln: 680 acres (0.4%); 3 parcels
+  - Cascade: 377 acres (0.2%); 1 parcel
+  - Gallatin: 81 acres (0.1%); 7 parcels
+  - Flathead: 52 acres (0.0%); 1 parcel
+Other potentially useful numbers:
+  - Largest county concentration: Missoula, 84,727 acres (53.8%)
+  - Average acreage per parcel: 347.1
+  - Largest recorded parcel: 746 acres in Missoula (parcel ID 04197801101010000)
+  - Consolidated from 13 recorded owner names
+
+#9 AMERICAN PRAIRIE
+Total holdings: 145,970 acres across 606 parcels
+Counties (7): Blaine, Chouteau, Fergus, Garfield, Petroleum, Phillips, Valley
+County breakdown:
+  - Phillips: 79,827 acres (54.7%); 296 parcels
+  - Valley: 18,973 acres (13.0%); 71 parcels
+  - Fergus: 16,565 acres (11.3%); 79 parcels
+  - Garfield: 12,695 acres (8.7%); 60 parcels
+  - Petroleum: 7,941 acres (5.4%); 35 parcels
+  - Blaine: 5,295 acres (3.6%); 40 parcels
+  - Chouteau: 4,673 acres (3.2%); 25 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Phillips, 79,827 acres (54.7%)
+  - Average acreage per parcel: 240.9
+  - Largest recorded parcel: 722 acres in Petroleum (parcel ID 55292419201010000)
+  - Consolidated from 2 recorded owner names
+
+#10 GREAT NORTHERN PROPERTIES
+Total holdings: 142,860 acres across 292 parcels
+Counties (12): Broadwater, Custer, Dawson, Garfield, McCone, Musselshell, Powder River, Prairie, Richland, Rosebud, Treasure, Yellowstone
+County breakdown:
+  - McCone: 58,879 acres (41.2%); 103 parcels
+  - Rosebud: 39,933 acres (28.0%); 102 parcels
+  - Custer: 11,667 acres (8.2%); 20 parcels
+  - Prairie: 8,298 acres (5.8%); 14 parcels
+  - Garfield: 5,127 acres (3.6%); 9 parcels
+  - Musselshell: 5,102 acres (3.6%); 9 parcels
+  - Powder River: 3,447 acres (2.4%); 10 parcels
+  - Richland: 3,434 acres (2.4%); 7 parcels
+  - Dawson: 2,721 acres (1.9%); 7 parcels
+  - Treasure: 2,320 acres (1.6%); 7 parcels
+  - Yellowstone: 1,918 acres (1.3%); 3 parcels
+  - Broadwater: 13 acres (0.0%); 1 parcel
+Other potentially useful numbers:
+  - Largest county concentration: McCone, 58,879 acres (41.2%)
+  - Average acreage per parcel: 489.2
+  - Largest recorded parcel: 767 acres in Garfield (parcel ID 50260103101010000)
+  - Consolidated from 11 recorded owner names
+
+#11 SIEBEN RANCH CO
+Total holdings: 129,705 acres across 303 parcels
+Counties (5): Cascade, Lewis and Clark, Meagher, Powell, Yellowstone
+County breakdown:
+  - Lewis and Clark: 76,913 acres (59.3%); 204 parcels
+  - Cascade: 44,699 acres (34.5%); 76 parcels
+  - Powell: 4,637 acres (3.6%); 15 parcels
+  - Meagher: 3,455 acres (2.7%); 6 parcels
+  - Yellowstone: 2 acres (0.0%); 2 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Lewis and Clark, 76,913 acres (59.3%)
+  - Average acreage per parcel: 428.1
+  - Largest recorded parcel: 658 acres in Cascade (parcel ID 02244920101010000)
+  - Consolidated from 4 recorded owner names
+
+#12 STIMSON LUMBER CO
+Total holdings: 129,177 acres across 389 parcels
+Counties (3): Lincoln, Mineral, Sanders
+County breakdown:
+  - Lincoln: 118,634 acres (91.8%); 328 parcels
+  - Sanders: 6,471 acres (5.0%); 29 parcels
+  - Mineral: 4,071 acres (3.2%); 32 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Lincoln, 118,634 acres (91.8%)
+  - Average acreage per parcel: 332.1
+  - Largest recorded parcel: 643 acres in Lincoln (parcel ID 56428403101010000)
+  - Consolidated from 4 recorded owner names
+
+#13 N5B CAPITAL
+Total holdings: 126,535 acres across 327 parcels
+Counties (2): Flathead, Lake
+County breakdown:
+  - Flathead: 104,806 acres (82.8%); 262 parcels
+  - Lake: 21,729 acres (17.2%); 65 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Flathead, 104,806 acres (82.8%)
+  - Average acreage per parcel: 387.0
+  - Largest recorded parcel: 644 acres in Flathead (parcel ID 07370435101010000)
+  - Consolidated from 8 recorded owner names
+
+#14 SPP MONTANA LLC
+Total holdings: 120,623 acres across 327 parcels
+Counties (3): Flathead, Lincoln, Sanders
+County breakdown:
+  - Lincoln: 79,939 acres (66.3%); 191 parcels
+  - Flathead: 39,316 acres (32.6%); 129 parcels
+  - Sanders: 1,367 acres (1.1%); 7 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Lincoln, 79,939 acres (66.3%)
+  - Average acreage per parcel: 368.9
+  - Largest recorded parcel: 766 acres in Flathead (parcel ID 07383001101010000)
+  - Consolidated from 5 recorded owner names
+
+#15 HILLENBRAND JOHN
+Total holdings: 117,724 acres across 285 parcels
+Counties (1): Garfield
+County breakdown:
+  - Garfield: 117,724 acres (100.0%); 285 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Garfield, 117,724 acres (100.0%)
+  - Average acreage per parcel: 413.1
+  - Largest recorded parcel: 685 acres in Garfield (parcel ID 50305701101010000)
+  - Consolidated from 1 recorded owner name
+
+#16 TED TURNER
+Total holdings: 114,196 acres across 233 parcels
+Counties (2): Gallatin, Madison
+County breakdown:
+  - Madison: 76,757 acres (67.2%); 149 parcels
+  - Gallatin: 37,439 acres (32.8%); 84 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Madison, 76,757 acres (67.2%)
+  - Average acreage per parcel: 490.1
+  - Largest recorded parcel: 1,333 acres in Gallatin (parcel ID 06069732101010000)
+  - Consolidated from 4 recorded owner names
+
+#17 BEAVERHEAD RANCH PROPERTY LLC
+Total holdings: 113,049 acres across 406 parcels
+Counties (2): Beaverhead, Madison
+County breakdown:
+  - Beaverhead: 111,849 acres (98.9%); 401 parcels
+  - Madison: 1,200 acres (1.1%); 5 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Beaverhead, 111,849 acres (98.9%)
+  - Average acreage per parcel: 278.4
+  - Largest recorded parcel: 651 acres in Beaverhead (parcel ID 18011801101010000)
+  - Consolidated from 1 recorded owner name
+
+#18 PADLOCK RANCH COMPANY
+Total holdings: 100,193 acres across 366 parcels
+Counties (3): Big Horn, Carter, Powder River
+County breakdown:
+  - Big Horn: 90,777 acres (90.6%); 335 parcels
+  - Carter: 5,593 acres (5.6%); 20 parcels
+  - Powder River: 3,823 acres (3.8%); 11 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Big Horn, 90,777 acres (90.6%)
+  - Average acreage per parcel: 273.8
+  - Largest recorded parcel: 1,495 acres in Big Horn (parcel ID 22021331201010000)
+  - Consolidated from 5 recorded owner names
+
+#19 HEAL HOLDINGS LLC
+Total holdings: 96,157 acres across 307 parcels
+Counties (2): Big Horn, Rosebud
+County breakdown:
+  - Rosebud: 51,575 acres (53.6%); 156 parcels
+  - Big Horn: 44,582 acres (46.4%); 151 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Rosebud, 51,575 acres (53.6%)
+  - Average acreage per parcel: 313.2
+  - Largest recorded parcel: 666 acres in Rosebud (parcel ID 29038531101011666)
+  - Consolidated from 1 recorded owner name
+
+#20 CHERRY CREEK SHEEP CO
+Total holdings: 95,281 acres across 205 parcels
+Counties (3): Custer, Garfield, Rosebud
+County breakdown:
+  - Rosebud: 46,210 acres (48.5%); 97 parcels
+  - Garfield: 44,888 acres (47.1%); 85 parcels
+  - Custer: 4,183 acres (4.4%); 23 parcels
+Other potentially useful numbers:
+  - Largest county concentration: Rosebud, 46,210 acres (48.5%)
+  - Average acreage per parcel: 464.8
+  - Largest recorded parcel: 653 acres in Garfield (parcel ID 50227219101010000)
+  - Consolidated from 8 recorded owner names
