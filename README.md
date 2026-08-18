@@ -42,12 +42,19 @@ relative to the repository. The main workflow is:
 
 ```sh
 python major-landowners-final-analysis.py
+python major-landowners-final-summary.py
 ```
 
 It creates `outputs/` and `geodata-outputs/` automatically. GeoJSON exports
 use up to four independent writer threads by default. Use `--workers 1` for a
 serial export. The old workflow also wrote a very large intermediate shapefile;
 that optional output is now enabled with `--write-cleaned`.
+
+Selected owners' parcels are grouped into transitive landholding blocks using
+a one-mile proximity threshold in EPSG:5070. Use `--block-gap-miles` to change
+the threshold. Parcel exports include block IDs, source-acre totals, and parcel
+counts. `geodata-outputs/top-10-blocks.geojson` contains the corresponding
+unbuffered parcel dissolves for the top ten owners.
 
 ## Analysis notes
 
@@ -63,6 +70,7 @@ First pass/"naive" analysis —
 Second pass/final analysis —
 - `shared-address-identification.py` -- A workflow for identifying owner name variants based on ownership addresses. This IDs places where owner name variants share mailing addresses, indicating they belong to the same real-world owner. Output of this was placed manually in `owner-name-grouping.json`.
 - `major-landowners-final-analysis.py` - Second/final pass analysis that accounts for owner name variations in addition to factors in the first-pass analysis, using name variations specified in `owner-name-grouping.json`. This also exports geodata files for each of the top 20 landowners to `geodata-outputs/`. Output is written to `outputs/final-top-20-list.txt`.
+- `major-landowners-final-summary.py` - Uses the final-analysis JSON output to write a reporting-friendly top-20 summary with counties, county acreage shares, parcel statistics, and other potentially useful numbers to `outputs/final-top-20-summary.txt`.
 - `explore.py` -- Summarizes one owner without loading all Montana geometries. Add `--geojson` or `--map-html` to write map-ready output, for example `python explore.py "TED TURNER" --geojson`.
 - `analysis_common.py` -- Shared input validation, path handling, and optimized attribute-only reads used by the scripts.
 

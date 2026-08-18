@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import math
 import os
 import re
 import sqlite3
@@ -13,6 +14,7 @@ from pathlib import Path
 
 import geopandas as gpd
 import pandas as pd
+from shapely import STRtree, union_all
 
 from analysis_common import (
     CLEANED_DIR,
@@ -29,6 +31,8 @@ from analysis_common import (
 
 
 TOP_COUNT = 20
+BLOCK_ANALYSIS_CRS = "EPSG:5070"
+METERS_PER_MILE = 1609.344
 MAP_COLUMNS = [
     "CountyName",
     "OwnerName_Grouped",
@@ -43,6 +47,8 @@ MAP_COLUMNS = [
     "geometry",
 ]
 SOURCE_MAP_COLUMNS = [column for column in MAP_COLUMNS if column != "OwnerName_Grouped"]
+BLOCK_COLUMNS = ["BlockID", "BlockAcres", "BlockParcelCount"]
+PARCEL_OUTPUT_COLUMNS = MAP_COLUMNS + BLOCK_COLUMNS
 
 
 def create_owner_database(path: Path) -> sqlite3.Connection:
@@ -206,8 +212,159 @@ def safe_filename(owner_name: str) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "-", owner_name).strip("-")
 
 
+class DisjointSet:
+    """Union-find structure used to build transitive parcel components."""
+
+    def __init__(self, size: int) -> None:
+        self.parent = list(range(size))
+        self.rank = [0] * size
+
+    def find(self, item: int) -> int:
+        while self.parent[item] != item:
+            self.parent[item] = self.parent[self.parent[item]]
+            item = self.parent[item]
+        return item
+
+    def union(self, left: int, right: int) -> None:
+        left_root = self.find(left)
+        right_root = self.find(right)
+        if left_root == right_root:
+            return
+        if self.rank[left_root] < self.rank[right_root]:
+            left_root, right_root = right_root, left_root
+        self.parent[right_root] = left_root
+        if self.rank[left_root] == self.rank[right_root]:
+            self.rank[left_root] += 1
+
+
+def assign_landholding_blocks(
+    ranking: pd.DataFrame,
+    parcels: gpd.GeoDataFrame,
+    gap_miles: float,
+) -> tuple[gpd.GeoDataFrame, gpd.GeoDataFrame]:
+    """Annotate parcels with transitive proximity components and dissolve them."""
+    if parcels.crs is None:
+        raise ValueError("Selected parcel geometry has no CRS")
+
+    # Normalize the retained/exported geometry up front. Only the temporary
+    # ``projected`` copy is used for proximity analysis.
+    annotated = parcels.to_crs(epsg=4326).reset_index(drop=True)
+    annotated["BlockID"] = pd.Series(pd.NA, index=annotated.index, dtype="string")
+    annotated["BlockAcres"] = float("nan")
+    annotated["BlockParcelCount"] = 0
+    projected = annotated.to_crs(BLOCK_ANALYSIS_CRS)
+    rank_by_owner = dict(zip(ranking["Owner"], ranking["Rank"], strict=True))
+    gap_meters = gap_miles * METERS_PER_MILE
+
+    for owner_name, owner_rows in annotated.groupby(
+        "OwnerName_Grouped", sort=False
+    ):
+        if owner_name not in rank_by_owner:
+            raise ValueError(f"Selected parcel owner is not ranked: {owner_name}")
+
+        positions = owner_rows.index.to_list()
+        owner_geometries = projected.loc[positions, "geometry"].to_numpy()
+        components = DisjointSet(len(positions))
+        tree = STRtree(owner_geometries)
+        pair_indexes = tree.query(
+            owner_geometries,
+            predicate="dwithin",
+            distance=gap_meters,
+        )
+        for left, right in zip(pair_indexes[0], pair_indexes[1], strict=True):
+            # The bulk query includes self-pairs and usually both pair directions.
+            if left < right:
+                components.union(int(left), int(right))
+
+        members_by_root: dict[int, list[int]] = {}
+        for local_position, source_position in enumerate(positions):
+            root = components.find(local_position)
+            members_by_root.setdefault(root, []).append(source_position)
+
+        component_stats = []
+        for members in members_by_root.values():
+            acres = float(annotated.loc[members, "TotalAcres"].sum())
+            component_stats.append((members, acres))
+        # Source position breaks equal-acre ties deterministically.
+        component_stats.sort(key=lambda item: (-item[1], min(item[0])))
+
+        owner_rank = int(rank_by_owner[owner_name])
+        for block_number, (members, acres) in enumerate(
+            component_stats, start=1
+        ):
+            block_id = f"{owner_rank}-{block_number:03d}"
+            annotated.loc[members, "BlockID"] = block_id
+            annotated.loc[members, "BlockAcres"] = acres
+            annotated.loc[members, "BlockParcelCount"] = len(members)
+
+    block_records = []
+    for block_id, block_parcels in annotated.groupby("BlockID", sort=False):
+        owners = block_parcels["OwnerName_Grouped"].unique()
+        if len(owners) != 1:
+            raise ValueError(f"Block {block_id} contains multiple owners")
+        block_records.append(
+            {
+                "OwnerName_Grouped": owners[0],
+                "Rank": int(rank_by_owner[owners[0]]),
+                "BlockID": block_id,
+                "BlockAcres": float(block_parcels["TotalAcres"].sum()),
+                "BlockParcelCount": len(block_parcels),
+                # Union the original WGS84 geometries, never buffered geometries.
+                "geometry": union_all(block_parcels.geometry.to_numpy()),
+            }
+        )
+    blocks = gpd.GeoDataFrame(block_records, geometry="geometry", crs=annotated.crs)
+    blocks = blocks.sort_values(["Rank", "BlockID"]).reset_index(drop=True)
+    return annotated, blocks
+
+
+def validate_landholding_blocks(
+    parcels: gpd.GeoDataFrame, blocks: gpd.GeoDataFrame
+) -> None:
+    """Validate block membership, acreage, parcel counts, ownership, and CRS."""
+    if parcels["BlockID"].isna().any() or (parcels["BlockID"] == "").any():
+        raise ValueError("Every selected parcel must have exactly one BlockID")
+    if parcels.crs is None or parcels.crs.to_epsg() != 4326:
+        raise ValueError("Parcel output geometry must be in EPSG:4326")
+    if blocks.crs is None or blocks.crs.to_epsg() != 4326:
+        raise ValueError("Block output geometry must be in EPSG:4326")
+    if not blocks["BlockID"].is_unique:
+        raise ValueError("Block output must contain one feature per BlockID")
+    if set(parcels["BlockID"]) != set(blocks["BlockID"]):
+        raise ValueError("Parcel and block outputs contain different BlockIDs")
+    if (
+        parcels.groupby("BlockID")["OwnerName_Grouped"].nunique() > 1
+    ).any():
+        raise ValueError("A block cannot contain parcels from multiple owners")
+
+    for owner_name, owner_parcels in parcels.groupby("OwnerName_Grouped"):
+        owner_blocks = blocks.loc[blocks["OwnerName_Grouped"] == owner_name]
+        parcel_acres = float(owner_parcels["TotalAcres"].sum())
+        block_acres = float(owner_blocks["BlockAcres"].sum())
+        if not math.isclose(parcel_acres, block_acres, rel_tol=1e-12, abs_tol=1e-6):
+            raise ValueError(f"Block acreage does not reconcile for {owner_name}")
+        if int(owner_blocks["BlockParcelCount"].sum()) != len(owner_parcels):
+            raise ValueError(f"Block parcel counts do not reconcile for {owner_name}")
+
+
+def print_block_summary(blocks: gpd.GeoDataFrame) -> None:
+    for owner_name, owner_blocks in blocks.groupby(
+        "OwnerName_Grouped", sort=False
+    ):
+        print(owner_name)
+        for block in owner_blocks.sort_values("BlockID").itertuples(index=False):
+            block_number = str(block.BlockID).rsplit("-", 1)[1]
+            print(
+                f"{block_number}: {block.BlockAcres:,.0f} acres / "
+                f"{block.BlockParcelCount:,} parcels"
+            )
+        print()
+
+
 def write_owner_geojson(
-    rank: int, owner_name: str, owner_parcels: gpd.GeoDataFrame
+    rank: int,
+    owner_name: str,
+    owner_parcels: gpd.GeoDataFrame,
 ) -> Path:
     path = GEODATA_OUTPUT_DIR / f"{rank}-{safe_filename(owner_name)}.geojson"
     owner_parcels.to_file(path, driver="GeoJSON", engine="pyogrio")
@@ -215,12 +372,15 @@ def write_owner_geojson(
 
 
 def export_geodata(
-    ranking: pd.DataFrame, parcels: gpd.GeoDataFrame, workers: int
+    ranking: pd.DataFrame,
+    parcels: gpd.GeoDataFrame,
+    blocks: gpd.GeoDataFrame,
+    workers: int,
 ) -> None:
     jobs = []
     for row in ranking.itertuples(index=False):
         owner_parcels = parcels.loc[
-            parcels["OwnerName_Grouped"] == row.Owner, MAP_COLUMNS
+            parcels["OwnerName_Grouped"] == row.Owner, PARCEL_OUTPUT_COLUMNS
         ].copy()
         jobs.append((row.Rank, row.Owner, owner_parcels))
 
@@ -245,8 +405,15 @@ def export_geodata(
         driver="GeoJSON",
         engine="pyogrio",
     )
-    combined.drop(columns="geometry").to_csv(
+    # Preserve the existing itemized CSV schema; block annotations are part of
+    # the requested parcel GeoJSON outputs.
+    combined.drop(columns=["geometry", *BLOCK_COLUMNS]).to_csv(
         OUTPUT_DIR / "top-10-itemized.csv", index=False
+    )
+    blocks.loc[blocks["Rank"].isin(top_ten["Rank"])].to_file(
+        GEODATA_OUTPUT_DIR / "top-10-blocks.geojson",
+        driver="GeoJSON",
+        engine="pyogrio",
     )
 
 
@@ -272,6 +439,12 @@ def parse_args() -> argparse.Namespace:
         help="parallel GeoJSON writers (default: up to 4; use 1 to disable)",
     )
     parser.add_argument(
+        "--block-gap-miles",
+        type=float,
+        default=1.0,
+        help="maximum gap between parcels in one block (default: 1 mile)",
+    )
+    parser.add_argument(
         "--write-cleaned",
         action="store_true",
         help="also create the legacy, very large all-parcel grouped shapefile",
@@ -279,6 +452,8 @@ def parse_args() -> argparse.Namespace:
     args = parser.parse_args()
     if args.workers < 1:
         parser.error("--workers must be at least 1")
+    if not math.isfinite(args.block_gap_miles) or args.block_gap_miles < 0:
+        parser.error("--block-gap-miles must be a finite, non-negative number")
     return args
 
 
@@ -322,8 +497,17 @@ def main() -> None:
 
     print("Reading geometry for the top landowners...")
     selected_parcels = read_selected_geometry(ranking, cleaner)
+    print(
+        "Grouping parcels into landholding blocks with a "
+        f"{args.block_gap_miles:g}-mile gap..."
+    )
+    selected_parcels, blocks = assign_landholding_blocks(
+        ranking, selected_parcels, args.block_gap_miles
+    )
+    validate_landholding_blocks(selected_parcels, blocks)
+    print_block_summary(blocks)
     print(f"Writing geodata with {args.workers} worker(s)...")
-    export_geodata(ranking, selected_parcels, args.workers)
+    export_geodata(ranking, selected_parcels, blocks, args.workers)
 
     if args.write_cleaned:
         write_cleaned_parcels(cleaner)
