@@ -400,18 +400,27 @@ def export_geodata(
         validate="many_to_one",
     )
     combined = combined.drop(columns="Owner")
-    combined.to_file(
-        GEODATA_OUTPUT_DIR / "top-10-combined.geojson",
-        driver="GeoJSON",
-        engine="pyogrio",
-    )
     # Preserve the existing itemized CSV schema; block annotations are part of
-    # the requested parcel GeoJSON outputs.
+    # the parcel GeoJSON outputs, while the combined GeoJSON is block-level.
     combined.drop(columns=["geometry", *BLOCK_COLUMNS]).to_csv(
         OUTPUT_DIR / "top-10-itemized.csv", index=False
     )
-    blocks.loc[blocks["Rank"].isin(top_ten["Rank"])].to_file(
+
+    # A block is one feature even when its dissolved geometry is multipart
+    # (for example, parcels connected only at a corner). Explicitly sort both
+    # aggregate exports by total-holdings rank and then block size/order.
+    top_ten_blocks = (
+        blocks.loc[blocks["Rank"].isin(top_ten["Rank"])]
+        .sort_values(["Rank", "BlockID"], kind="stable")
+        .reset_index(drop=True)
+    )
+    top_ten_blocks.to_file(
         GEODATA_OUTPUT_DIR / "top-10-blocks.geojson",
+        driver="GeoJSON",
+        engine="pyogrio",
+    )
+    top_ten_blocks.to_file(
+        GEODATA_OUTPUT_DIR / "top-10-combined.geojson",
         driver="GeoJSON",
         engine="pyogrio",
     )

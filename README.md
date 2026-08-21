@@ -53,8 +53,10 @@ that optional output is now enabled with `--write-cleaned`.
 Selected owners' parcels are grouped into transitive landholding blocks using
 a one-mile proximity threshold in EPSG:5070. Use `--block-gap-miles` to change
 the threshold. Parcel exports include block IDs, source-acre totals, and parcel
-counts. `geodata-outputs/top-10-blocks.geojson` contains the corresponding
-unbuffered parcel dissolves for the top ten owners.
+counts. `geodata-outputs/top-10-blocks.geojson` and the backward-compatible
+`geodata-outputs/top-10-combined.geojson` contain the corresponding unbuffered
+parcel dissolves for the top ten owners, ordered by owner rank and block ID.
+The itemized parcel records remain in `outputs/top-10-itemized.csv`.
 
 ## Analysis notes
 
