@@ -1,0 +1,3656 @@
+{
+    "Methodology": {
+        "AcreageField": "TotalAcres",
+        "TribalTrustIncludedInFederal": false,
+        "StatewideCadastralAcres": 90329360.73000002,
+        "ParcelRecords": 921024
+    },
+    "JurisdictionTotals": [
+        {
+            "Jurisdiction": "Federal",
+            "NumParcels": 64600,
+            "TotalAcres": 25340647.139000002,
+            "PercentOfCadastralAcres": 28.053610624727813
+        },
+        {
+            "Jurisdiction": "State of Montana",
+            "NumParcels": 18017,
+            "TotalAcres": 5627788.902000001,
+            "PercentOfCadastralAcres": 6.230298605590496
+        },
+        {
+            "Jurisdiction": "Tribal/individual trust",
+            "NumParcels": 19830,
+            "TotalAcres": 5293056.635000001,
+            "PercentOfCadastralAcres": 5.859729983943172
+        },
+        {
+            "Jurisdiction": "Local government",
+            "NumParcels": 11184,
+            "TotalAcres": 140164.432,
+            "PercentOfCadastralAcres": 0.15517040181316025
+        }
+    ],
+    "Ranking": [
+        {
+            "Rank": 1,
+            "Landholder": "U.S. Forest Service",
+            "Jurisdiction": "Federal",
+            "NumParcels": 22311,
+            "TotalAcres": 11744388.281000001,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "USDA FOREST SERVICE",
+                    "NumParcels": 16655,
+                    "TotalAcres": 8773925.163
+                },
+                {
+                    "OwnerName": "USA - FOREST SERVICE",
+                    "NumParcels": 2161,
+                    "TotalAcres": 1115836.824
+                },
+                {
+                    "OwnerName": "US FOREST SERVICE",
+                    "NumParcels": 858,
+                    "TotalAcres": 461348.596
+                },
+                {
+                    "OwnerName": "FOREST SERVICE",
+                    "NumParcels": 765,
+                    "TotalAcres": 422333.526
+                },
+                {
+                    "OwnerName": "CUSTER NATIONAL FOREST",
+                    "NumParcels": 622,
+                    "TotalAcres": 343359.83
+                },
+                {
+                    "OwnerName": "UNITED STATES FOREST SERVICE",
+                    "NumParcels": 567,
+                    "TotalAcres": 287058.05299999996
+                },
+                {
+                    "OwnerName": "FLATHEAD NATIONAL FOREST",
+                    "NumParcels": 272,
+                    "TotalAcres": 154470.205
+                },
+                {
+                    "OwnerName": "U S FOREST SERVICE",
+                    "NumParcels": 141,
+                    "TotalAcres": 78504.78600000001
+                },
+                {
+                    "OwnerName": "USDA FOREST SERIVCE",
+                    "NumParcels": 78,
+                    "TotalAcres": 49394.008
+                },
+                {
+                    "OwnerName": "USDA FORERST SERVICE",
+                    "NumParcels": 36,
+                    "TotalAcres": 23209.771
+                },
+                {
+                    "OwnerName": "USDS FOREST SERVICE",
+                    "NumParcels": 25,
+                    "TotalAcres": 14975.0
+                },
+                {
+                    "OwnerName": "USA-FOREST SERVICE",
+                    "NumParcels": 13,
+                    "TotalAcres": 6433.286
+                },
+                {
+                    "OwnerName": "GALLATIN NATIONAL FOREST",
+                    "NumParcels": 26,
+                    "TotalAcres": 2531.526
+                },
+                {
+                    "OwnerName": "USA - LEWIS & CLARK FOREST SERVICE",
+                    "NumParcels": 5,
+                    "TotalAcres": 1659.388
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA FOREST SERVICE",
+                    "NumParcels": 16,
+                    "TotalAcres": 1369.0780000000002
+                },
+                {
+                    "OwnerName": "USDA FOREST SERVICE ATTN: JANNE JOY",
+                    "NumParcels": 4,
+                    "TotalAcres": 1292.0400000000002
+                },
+                {
+                    "OwnerName": "USA FOREST SERVICE USDA",
+                    "NumParcels": 3,
+                    "TotalAcres": 1240.0
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA / US FOREST SER",
+                    "NumParcels": 37,
+                    "TotalAcres": 861.061
+                },
+                {
+                    "OwnerName": "USDA FOREST SERVIDE",
+                    "NumParcels": 2,
+                    "TotalAcres": 682.0
+                },
+                {
+                    "OwnerName": "USDA FORST SERVICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 640.0
+                },
+                {
+                    "OwnerName": "USDA FOREST SERRICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 631.15
+                },
+                {
+                    "OwnerName": "ESDA FOREST SERVICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 625.0
+                },
+                {
+                    "OwnerName": "FOREST SERVICE USDA",
+                    "NumParcels": 1,
+                    "TotalAcres": 598.4
+                },
+                {
+                    "OwnerName": "USA FOREST SERVICE",
+                    "NumParcels": 6,
+                    "TotalAcres": 474.87100000000004
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA-FOREST SERVICE",
+                    "NumParcels": 6,
+                    "TotalAcres": 379.09900000000005
+                },
+                {
+                    "OwnerName": "USA -  FOREST SERVICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 156.62
+                },
+                {
+                    "OwnerName": "USA/US FOREST SERVICE",
+                    "NumParcels": 4,
+                    "TotalAcres": 154.37
+                },
+                {
+                    "OwnerName": "UNITED STATES DEPT OF AG FOREST SERVICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 150.51
+                },
+                {
+                    "OwnerName": "USDA FOREST SERVICE DEPT OF AGRICULTURE",
+                    "NumParcels": 1,
+                    "TotalAcres": 80.0
+                },
+                {
+                    "OwnerName": "USA FLATHEAD NATIONAL FOREST",
+                    "NumParcels": 1,
+                    "TotalAcres": 10.013
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA USDA FOREST SERVICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 4.107
+                }
+            ]
+        },
+        {
+            "Rank": 2,
+            "Landholder": "U.S. Bureau of Land Management",
+            "Jurisdiction": "Federal",
+            "NumParcels": 26587,
+            "TotalAcres": 7697391.437000002,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 18045,
+                    "TotalAcres": 5579613.860000001
+                },
+                {
+                    "OwnerName": "BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 2736,
+                    "TotalAcres": 732302.0999999999
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MGMT (RESERVED)",
+                    "NumParcels": 1913,
+                    "TotalAcres": 421204.212
+                },
+                {
+                    "OwnerName": "BLM",
+                    "NumParcels": 969,
+                    "TotalAcres": 256534.96200000003
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANGEMENT",
+                    "NumParcels": 696,
+                    "TotalAcres": 227791.154
+                },
+                {
+                    "OwnerName": "USDI - BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 388,
+                    "TotalAcres": 115654.52
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANAGEMENT (RES)",
+                    "NumParcels": 335,
+                    "TotalAcres": 75130.686
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MGMT BANKHEAD-JONES",
+                    "NumParcels": 269,
+                    "TotalAcres": 50310.073
+                },
+                {
+                    "OwnerName": "U S BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 188,
+                    "TotalAcres": 42460.796
+                },
+                {
+                    "OwnerName": "USDI BLM (RESERVED)",
+                    "NumParcels": 240,
+                    "TotalAcres": 41748.11899999999
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANAGEMENT R",
+                    "NumParcels": 129,
+                    "TotalAcres": 21929.343999999997
+                },
+                {
+                    "OwnerName": "US BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 81,
+                    "TotalAcres": 20831.637
+                },
+                {
+                    "OwnerName": "USA BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 158,
+                    "TotalAcres": 19062.222
+                },
+                {
+                    "OwnerName": "USDI BLM (RESERVED) MONTANA STATE OFFICE",
+                    "NumParcels": 83,
+                    "TotalAcres": 17624.312
+                },
+                {
+                    "OwnerName": "UNITED STATES BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 47,
+                    "TotalAcres": 13329.6
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANAGEMENT RESERVED",
+                    "NumParcels": 62,
+                    "TotalAcres": 12211.688
+                },
+                {
+                    "OwnerName": "BLM FIELD OFFICE",
+                    "NumParcels": 41,
+                    "TotalAcres": 11854.467
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANAGEMENT(RESERVED)",
+                    "NumParcels": 28,
+                    "TotalAcres": 11477.0
+                },
+                {
+                    "OwnerName": "USDA - BUREAU OF LAND MGMT-RES",
+                    "NumParcels": 71,
+                    "TotalAcres": 7995.369
+                },
+                {
+                    "OwnerName": "UNITED STATES BUREAU OF LAND MANAGEMENT GARNET AREA",
+                    "NumParcels": 11,
+                    "TotalAcres": 3582.0
+                },
+                {
+                    "OwnerName": "USDI - BLM",
+                    "NumParcels": 3,
+                    "TotalAcres": 1440.0
+                },
+                {
+                    "OwnerName": "US DEPT OF INT BLM",
+                    "NumParcels": 3,
+                    "TotalAcres": 1340.0
+                },
+                {
+                    "OwnerName": "BLM (US BUREAU OF LAND MANAGEMENT)",
+                    "NumParcels": 10,
+                    "TotalAcres": 1312.0
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANAGEMENT(ACQUIRED)",
+                    "NumParcels": 6,
+                    "TotalAcres": 1161.0
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANAGEMENT-RESERVED",
+                    "NumParcels": 19,
+                    "TotalAcres": 1087.233
+                },
+                {
+                    "OwnerName": "MONTANA STATE OFFICE",
+                    "NumParcels": 4,
+                    "TotalAcres": 1075.74
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA SECRETARY OF THE INTERIOR BLM-MONTANA/DAKOTAS SO",
+                    "NumParcels": 4,
+                    "TotalAcres": 960.0
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MGNT (RESERVED)",
+                    "NumParcels": 5,
+                    "TotalAcres": 856.03
+                },
+                {
+                    "OwnerName": "US DEPT OF INTERIOR - BLM",
+                    "NumParcels": 2,
+                    "TotalAcres": 800.0
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA-BLM",
+                    "NumParcels": 5,
+                    "TotalAcres": 773.94
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA BLM",
+                    "NumParcels": 6,
+                    "TotalAcres": 757.8059999999999
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MGT RESERVED",
+                    "NumParcels": 6,
+                    "TotalAcres": 613.8249999999999
+                },
+                {
+                    "OwnerName": "USDA BUREAU OF LAND MANAGEMENT R",
+                    "NumParcels": 1,
+                    "TotalAcres": 571.4
+                },
+                {
+                    "OwnerName": "U S A DEPT OF INTERIOR BLM",
+                    "NumParcels": 1,
+                    "TotalAcres": 478.07
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANGEMENT R",
+                    "NumParcels": 1,
+                    "TotalAcres": 403.329
+                },
+                {
+                    "OwnerName": "U S A BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 2,
+                    "TotalAcres": 177.05
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MGMT",
+                    "NumParcels": 2,
+                    "TotalAcres": 119.941
+                },
+                {
+                    "OwnerName": "USDI BLM RESERVED",
+                    "NumParcels": 1,
+                    "TotalAcres": 104.58
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA - BLM",
+                    "NumParcels": 2,
+                    "TotalAcres": 99.71
+                },
+                {
+                    "OwnerName": "USI BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 1,
+                    "TotalAcres": 92.8
+                },
+                {
+                    "OwnerName": "USDI BUREAU LAND MGMT",
+                    "NumParcels": 1,
+                    "TotalAcres": 91.3
+                },
+                {
+                    "OwnerName": "USDI BUREAU OF LAND MANAGEMENT REERVED",
+                    "NumParcels": 1,
+                    "TotalAcres": 75.097
+                },
+                {
+                    "OwnerName": "BUREAU OF LAND MANAGEMENT-US DEPT OF INTERIOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 73.0
+                },
+                {
+                    "OwnerName": "USA - BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 1,
+                    "TotalAcres": 69.0
+                },
+                {
+                    "OwnerName": "USDA BUREAU OF LAND MANAGEMENT",
+                    "NumParcels": 3,
+                    "TotalAcres": 46.92
+                },
+                {
+                    "OwnerName": "SDI BUREAU OF LAND MANAGEMENT RESERVED",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.645
+                },
+                {
+                    "OwnerName": "USDI  BUREAU OF LAND MANAGEMENT RESERVED",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "USDI  BUREAU LAND MANAGEMENT",
+                    "NumParcels": 1,
+                    "TotalAcres": 39.45
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF INTERIOR BLM",
+                    "NumParcels": 2,
+                    "TotalAcres": 37.75
+                },
+                {
+                    "OwnerName": "BLM DEPT INTERIOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 5.7
+                }
+            ]
+        },
+        {
+            "Rank": 3,
+            "Landholder": "State of Montana (agency unspecified)",
+            "Jurisdiction": "State of Montana",
+            "NumParcels": 12765,
+            "TotalAcres": 4341212.600000001,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "STATE OF MONTANA",
+                    "NumParcels": 12218,
+                    "TotalAcres": 4263283.6280000005
+                },
+                {
+                    "OwnerName": "MONTANA STATE OF",
+                    "NumParcels": 223,
+                    "TotalAcres": 65618.68400000001
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA - AG EXPERIMENT STATION",
+                    "NumParcels": 8,
+                    "TotalAcres": 1984.62
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF MONTANA",
+                    "NumParcels": 3,
+                    "TotalAcres": 1920.6
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF MILITARY AFFAIRS",
+                    "NumParcels": 10,
+                    "TotalAcres": 1854.1999999999998
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF",
+                    "NumParcels": 8,
+                    "TotalAcres": 1369.6599999999999
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF TRANS",
+                    "NumParcels": 57,
+                    "TotalAcres": 731.081
+                },
+                {
+                    "OwnerName": "STATE",
+                    "NumParcels": 1,
+                    "TotalAcres": 640.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA MINE LEASE LAND",
+                    "NumParcels": 1,
+                    "TotalAcres": 640.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF",
+                    "NumParcels": 25,
+                    "TotalAcres": 614.585
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT MILLITARY AFFAIRS",
+                    "NumParcels": 1,
+                    "TotalAcres": 497.46
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEQ",
+                    "NumParcels": 1,
+                    "TotalAcres": 270.7
+                },
+                {
+                    "OwnerName": "MONTANA STATE RESOURCES",
+                    "NumParcels": 2,
+                    "TotalAcres": 181.912
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF STATE",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.0
+                },
+                {
+                    "OwnerName": "STATE OF MT BENEFIT OF MONTANA STATE COLLEGE",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA UNIVERSITY",
+                    "NumParcels": 1,
+                    "TotalAcres": 145.45
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF HWYS",
+                    "NumParcels": 24,
+                    "TotalAcres": 114.103
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FBO STATE FISH & GAM COMMISSION",
+                    "NumParcels": 1,
+                    "TotalAcres": 99.174
+                },
+                {
+                    "OwnerName": "MT DEPT OF FISH WILDFLIFE & PARKS",
+                    "NumParcels": 2,
+                    "TotalAcres": 97.26
+                },
+                {
+                    "OwnerName": "STATE OF MT BENEFIT OF AG EXP STATION OF MSU",
+                    "NumParcels": 1,
+                    "TotalAcres": 90.0
+                },
+                {
+                    "OwnerName": "STATE OF MT FOR THE USE OF THE AG EXPRMNT STATION AT THE AG COLLEGE OF ST OF MT",
+                    "NumParcels": 1,
+                    "TotalAcres": 88.53
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FOR THE USE AND BENEFIT OF THE MT AG EXPRMNT STATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 78.15
+                },
+                {
+                    "OwnerName": "ST OF MT AG EXPERIMENT STATION MT ST UNI",
+                    "NumParcels": 1,
+                    "TotalAcres": 73.7
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF ADMIN ATTN GSD",
+                    "NumParcels": 59,
+                    "TotalAcres": 53.85
+                },
+                {
+                    "OwnerName": "STATE OF MT BOARD OF ENVIRONMENT REVIEW & DEPT OF ENVIRONMENTAL QUALITY",
+                    "NumParcels": 7,
+                    "TotalAcres": 41.52
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA AERONAUTICS DIVISION",
+                    "NumParcels": 2,
+                    "TotalAcres": 41.29
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF CORRECTIONS",
+                    "NumParcels": 2,
+                    "TotalAcres": 35.429
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OFENVIRONMENTAL QUALITY",
+                    "NumParcels": 1,
+                    "TotalAcres": 33.33
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA HWY DEPT",
+                    "NumParcels": 26,
+                    "TotalAcres": 29.366999999999997
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF MILITARY AFFAIRS",
+                    "NumParcels": 1,
+                    "TotalAcres": 23.675
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF TRAN",
+                    "NumParcels": 2,
+                    "TotalAcres": 22.5
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF ENVIRONMENTAL QUALITY",
+                    "NumParcels": 1,
+                    "TotalAcres": 20.28
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF MILTARY AFFAIRS",
+                    "NumParcels": 1,
+                    "TotalAcres": 19.78
+                },
+                {
+                    "OwnerName": "STATE OF MT DEPT OF HWYS",
+                    "NumParcels": 1,
+                    "TotalAcres": 18.336
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA AERONAUTICS COMMISSION",
+                    "NumParcels": 1,
+                    "TotalAcres": 18.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT MILITARY AFFAIRS",
+                    "NumParcels": 1,
+                    "TotalAcres": 15.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA HWY COMM",
+                    "NumParcels": 1,
+                    "TotalAcres": 13.8
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT HWYS",
+                    "NumParcels": 1,
+                    "TotalAcres": 11.466
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF TRANS",
+                    "NumParcels": 1,
+                    "TotalAcres": 8.95
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF HIGHW",
+                    "NumParcels": 3,
+                    "TotalAcres": 8.033000000000001
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA  DEPT OF MILITARY AFFAIRS",
+                    "NumParcels": 1,
+                    "TotalAcres": 8.01
+                },
+                {
+                    "OwnerName": "MONTANA STATE OF DEPT OF HIGHWAYS",
+                    "NumParcels": 4,
+                    "TotalAcres": 7.206
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF TRANSPORATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 7.03
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF TRANSP",
+                    "NumParcels": 2,
+                    "TotalAcres": 6.46
+                },
+                {
+                    "OwnerName": "MONTANA STATE OF HIGHWAY COMMISSION",
+                    "NumParcels": 2,
+                    "TotalAcres": 6.286
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF TRANSPORTION",
+                    "NumParcels": 4,
+                    "TotalAcres": 5.107
+                },
+                {
+                    "OwnerName": "MONTANA STATE OF-DEPT OF MILITARY AFFAIR",
+                    "NumParcels": 1,
+                    "TotalAcres": 5.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF ADMINISTRATION",
+                    "NumParcels": 2,
+                    "TotalAcres": 3.778
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPART OF TRAN",
+                    "NumParcels": 3,
+                    "TotalAcres": 3.6950000000000003
+                },
+                {
+                    "OwnerName": "STATE OF MT DEPARTMENT OF ADMIN",
+                    "NumParcels": 1,
+                    "TotalAcres": 3.65
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA BD OF REGENTS",
+                    "NumParcels": 1,
+                    "TotalAcres": 3.646
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF HWY",
+                    "NumParcels": 2,
+                    "TotalAcres": 3.64
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA GREAT FALLS COLLEGE MT STATE UNIVERSITY",
+                    "NumParcels": 3,
+                    "TotalAcres": 3.314
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA  DOT",
+                    "NumParcels": 1,
+                    "TotalAcres": 3.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF TRANSPORT",
+                    "NumParcels": 3,
+                    "TotalAcres": 2.401
+                },
+                {
+                    "OwnerName": "STATE OF MT - MT HISTORICAL SOCIETY",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.463
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FOR THE USE AND BENIFIT OF EASTERN MONANA COLLEGE",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.078
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA- CITY COUNTY DRAIN",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.86
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF ADMIN ATTEN GSD",
+                    "NumParcels": 3,
+                    "TotalAcres": 0.826
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF LABOR &",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.737
+                },
+                {
+                    "OwnerName": "STATE OF MT EASTERN MONTANA COLLEGE",
+                    "NumParcels": 3,
+                    "TotalAcres": 0.606
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA-DEPT OF HWYS",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.598
+                },
+                {
+                    "OwnerName": "STATE OF MT - DEPT OF INSTITUTIONS",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.562
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA BOARD OF LAND COMMISSIO",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.554
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA OFFICE OF PUBLIC INSTRU",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.487
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF ADMIN ATTN GDS",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.483
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FOR THE USE &",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.466
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA HIGWAY PATROL BUREAU",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.46
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA-BD LAND COMM",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.456
+                },
+                {
+                    "OwnerName": "STATE OF MT DIV OF WORKERS COM",
+                    "NumParcels": 2,
+                    "TotalAcres": 0.44799999999999995
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA BOARD OF INVESTMENTS",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.441
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA WORKERS COMP",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.306
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA PRAIRIE VIEW",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.275
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF TRANSPORATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.192
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.18
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT LABOR & INDUSTRY",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.18
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT LABOR & IND",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.169
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA- MDT",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.165
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF ADMIN GSD",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF TRANSPORT",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.073
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA, DEPT OF HWYS",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.048
+                }
+            ]
+        },
+        {
+            "Rank": 4,
+            "Landholder": "United States (agency unspecified)",
+            "Jurisdiction": "Federal",
+            "NumParcels": 9906,
+            "TotalAcres": 3785980.698999998,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA",
+                    "NumParcels": 5593,
+                    "TotalAcres": 1883691.0920000002
+                },
+                {
+                    "OwnerName": "USA",
+                    "NumParcels": 3985,
+                    "TotalAcres": 1828458.9270000004
+                },
+                {
+                    "OwnerName": "U S A",
+                    "NumParcels": 282,
+                    "TotalAcres": 61253.094
+                },
+                {
+                    "OwnerName": "USDI-UNITED STATES OF AMERICA",
+                    "NumParcels": 12,
+                    "TotalAcres": 5897.26
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMRERICA",
+                    "NumParcels": 6,
+                    "TotalAcres": 2911.08
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA &",
+                    "NumParcels": 3,
+                    "TotalAcres": 1877.48
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA USDI",
+                    "NumParcels": 4,
+                    "TotalAcres": 1159.0
+                },
+                {
+                    "OwnerName": "THE UNITED STATES OF AMERICA",
+                    "NumParcels": 10,
+                    "TotalAcres": 492.34
+                },
+                {
+                    "OwnerName": "USA &",
+                    "NumParcels": 1,
+                    "TotalAcres": 161.382
+                },
+                {
+                    "OwnerName": "USA GOVERNMENT",
+                    "NumParcels": 8,
+                    "TotalAcres": 49.404
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA and its assigns",
+                    "NumParcels": 1,
+                    "TotalAcres": 27.61
+                },
+                {
+                    "OwnerName": "UNITED STATES",
+                    "NumParcels": 1,
+                    "TotalAcres": 2.03
+                }
+            ]
+        },
+        {
+            "Rank": 5,
+            "Landholder": "Tribal or individual trust land (unspecified)",
+            "Jurisdiction": "Tribal/individual trust",
+            "NumParcels": 8458,
+            "TotalAcres": 1870476.0480000009,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "USA IN TRUST",
+                    "NumParcels": 5279,
+                    "TotalAcres": 1139955.995
+                },
+                {
+                    "OwnerName": "TRIBAL",
+                    "NumParcels": 1005,
+                    "TotalAcres": 239348.242
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR",
+                    "NumParcels": 970,
+                    "TotalAcres": 229317.126
+                },
+                {
+                    "OwnerName": "FLATHEAD INDIAN RESERVATION",
+                    "NumParcels": 534,
+                    "TotalAcres": 183856.081
+                },
+                {
+                    "OwnerName": "FLATHEAD RESERVATION",
+                    "NumParcels": 95,
+                    "TotalAcres": 34085.756
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA IN TRUST",
+                    "NumParcels": 186,
+                    "TotalAcres": 13205.105
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR THE",
+                    "NumParcels": 52,
+                    "TotalAcres": 10567.32
+                },
+                {
+                    "OwnerName": "STEVENS DOMINIC O SR USA IN TRUST FOR",
+                    "NumParcels": 9,
+                    "TotalAcres": 1866.92
+                },
+                {
+                    "OwnerName": "USA IN TRUST 17/18 INT",
+                    "NumParcels": 4,
+                    "TotalAcres": 1312.5430000000001
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR TYLER CAROLINE DECELLES",
+                    "NumParcels": 8,
+                    "TotalAcres": 1040.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR DOLSON BERTHA",
+                    "NumParcels": 6,
+                    "TotalAcres": 844.98
+                },
+                {
+                    "OwnerName": "LITTLE SHELL TRIBE OF CHIPPEWA INDIANS OF MONTANA",
+                    "NumParcels": 31,
+                    "TotalAcres": 784.796
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR WERK GERTRUDE",
+                    "NumParcels": 5,
+                    "TotalAcres": 749.39
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR AMELIA F SMITH",
+                    "NumParcels": 6,
+                    "TotalAcres": 678.6
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR WHITWORTH FRED MARTIN SR",
+                    "NumParcels": 7,
+                    "TotalAcres": 621.12
+                },
+                {
+                    "OwnerName": "REAL BIRD MARK USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 520.0
+                },
+                {
+                    "OwnerName": "TRIBAL INDIAN LAND",
+                    "NumParcels": 4,
+                    "TotalAcres": 520.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR JOHNSON KAY ETAL",
+                    "NumParcels": 5,
+                    "TotalAcres": 520.0
+                },
+                {
+                    "OwnerName": "MILLER SHIRLEY H USA IN TRUST FOR",
+                    "NumParcels": 5,
+                    "TotalAcres": 477.75
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR WERK CLARENA",
+                    "NumParcels": 2,
+                    "TotalAcres": 473.0
+                },
+                {
+                    "OwnerName": "BEAR CLAW JOAN HORN USA IN TRUST FOR",
+                    "NumParcels": 4,
+                    "TotalAcres": 468.16999999999996
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR SNOW JAMES F III",
+                    "NumParcels": 2,
+                    "TotalAcres": 434.76
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA IN TRUST FOR DONOVAN L MILLS JR",
+                    "NumParcels": 3,
+                    "TotalAcres": 409.14
+                },
+                {
+                    "OwnerName": "U S A IN TRUST FOR",
+                    "NumParcels": 3,
+                    "TotalAcres": 395.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR PATRICIA QUISNO",
+                    "NumParcels": 2,
+                    "TotalAcres": 374.11
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CARMEN MARCEAU",
+                    "NumParcels": 3,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CHARLES KNOWLTON",
+                    "NumParcels": 1,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR SPEAKTHUNDER GEORGE",
+                    "NumParcels": 1,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR THERESA A HOWES",
+                    "NumParcels": 1,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "JENNINGS LEWIS PETER USA IN TRUST FOR",
+                    "NumParcels": 3,
+                    "TotalAcres": 319.7
+                },
+                {
+                    "OwnerName": "LAFEVER KENNETH ESTATE USA IN TRUST FOR",
+                    "NumParcels": 5,
+                    "TotalAcres": 280.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR DESJARLAIS WILMA J",
+                    "NumParcels": 1,
+                    "TotalAcres": 216.38
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR GRAY SANDRA JEAN",
+                    "NumParcels": 2,
+                    "TotalAcres": 200.26
+                },
+                {
+                    "OwnerName": "CHEYENNE RIVER SIOUX TRIBE &",
+                    "NumParcels": 1,
+                    "TotalAcres": 200.0
+                },
+                {
+                    "OwnerName": "BEAUMONT PHILLIP & MARTHA USA IN TRUST FOR",
+                    "NumParcels": 3,
+                    "TotalAcres": 199.62
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR BROCKIE HENRY & RUBY I",
+                    "NumParcels": 2,
+                    "TotalAcres": 177.28
+                },
+                {
+                    "OwnerName": "REAL BIRD PIUS USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.02
+                },
+                {
+                    "OwnerName": "DENNY MARCUS USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.0
+                },
+                {
+                    "OwnerName": "HILL PAUL USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.0
+                },
+                {
+                    "OwnerName": "NATIVE AMERICAN TRIBAL",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR MCGILLIS JUSTINE HEIRS",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.0
+                },
+                {
+                    "OwnerName": "WELL KNOWN FELIX USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.0
+                },
+                {
+                    "OwnerName": "STEVENS DOMINIC USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 159.68
+                },
+                {
+                    "OwnerName": "HAMMETT MARY ESTATE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 159.54
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR EUGENE",
+                    "NumParcels": 1,
+                    "TotalAcres": 152.561
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR TROSPER G",
+                    "NumParcels": 1,
+                    "TotalAcres": 146.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CHRISTENSON MILDRED",
+                    "NumParcels": 4,
+                    "TotalAcres": 138.14
+                },
+                {
+                    "OwnerName": "ALDEN STELLA USA IN TRUST FOR",
+                    "NumParcels": 2,
+                    "TotalAcres": 137.5
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR GERALD G MARTIN",
+                    "NumParcels": 2,
+                    "TotalAcres": 125.0
+                },
+                {
+                    "OwnerName": "KNOWS GROUND JANICE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 120.0
+                },
+                {
+                    "OwnerName": "NATIVE AMERICAN (TRIBAL)",
+                    "NumParcels": 2,
+                    "TotalAcres": 119.898
+                },
+                {
+                    "OwnerName": "MILLER SHIRLEY USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 118.75
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR STEVE HOVE",
+                    "NumParcels": 2,
+                    "TotalAcres": 102.68
+                },
+                {
+                    "OwnerName": "FIGHTER ERMA JANE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 100.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR FORMAN MICHAELA ELAINE AKA HATCH MICHAELA ELAINE",
+                    "NumParcels": 2,
+                    "TotalAcres": 100.0
+                },
+                {
+                    "OwnerName": "PEASE FEROLE M USA IN TRUST FOR",
+                    "NumParcels": 2,
+                    "TotalAcres": 85.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR HENRY MORIN",
+                    "NumParcels": 2,
+                    "TotalAcres": 80.09
+                },
+                {
+                    "OwnerName": "JENNINGS ROBERT S USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 80.0
+                },
+                {
+                    "OwnerName": "RUSSELL WILLIAM A USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 80.0
+                },
+                {
+                    "OwnerName": "STEWART OLIVE BEAR GROUND USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 80.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR WILSON MARTHA BARNES",
+                    "NumParcels": 1,
+                    "TotalAcres": 80.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CUERTH MINNIE",
+                    "NumParcels": 1,
+                    "TotalAcres": 78.24
+                },
+                {
+                    "OwnerName": "CLINE GARLAND JACK USA IN TRUST FOR",
+                    "NumParcels": 2,
+                    "TotalAcres": 77.77000000000001
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CHIPPEEWA CREE TRIBE",
+                    "NumParcels": 1,
+                    "TotalAcres": 77.28
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR PATRICIA A QUISNO",
+                    "NumParcels": 2,
+                    "TotalAcres": 76.11
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR TROSPER WILLIAM",
+                    "NumParcels": 1,
+                    "TotalAcres": 75.42
+                },
+                {
+                    "OwnerName": "CAPTAIN ELDAH M PEASE USA IN TRUST FOR",
+                    "NumParcels": 2,
+                    "TotalAcres": 60.0
+                },
+                {
+                    "OwnerName": "PEASE FELLOWS D USA IN TRUST FOR",
+                    "NumParcels": 2,
+                    "TotalAcres": 60.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR JOHN MATT",
+                    "NumParcels": 1,
+                    "TotalAcres": 59.79
+                },
+                {
+                    "OwnerName": "USA IN TRUST MAAS WALENE HOLT",
+                    "NumParcels": 3,
+                    "TotalAcres": 48.95
+                },
+                {
+                    "OwnerName": "RAFFERTY ELIZABETH USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 48.86
+                },
+                {
+                    "OwnerName": "NAKS OR CHILD USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 45.9
+                },
+                {
+                    "OwnerName": "BACKBONE RAMONA USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "BIRDINGROUND VELMA USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "ELLIOTT ERVIN USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "IDA PEASE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "LITTLE OWL LUCY USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "OTHER MEDICINE ERMA USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "PHARES JOSEPH W USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR FORMAN",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR GRAY SANDRA",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR GRAY THELMA I",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR KING DEBRA J MATT",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR TROUT EDWARD",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR KAHN TROSPER ANN 2/3 INT",
+                    "NumParcels": 1,
+                    "TotalAcres": 39.99
+                },
+                {
+                    "OwnerName": "BULLSHOWS CHARLES USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 39.48
+                },
+                {
+                    "OwnerName": "USA IN TRUST/CHENETTE DAVID E",
+                    "NumParcels": 1,
+                    "TotalAcres": 37.39
+                },
+                {
+                    "OwnerName": "TRIBE REAL ESTATE LLC",
+                    "NumParcels": 3,
+                    "TotalAcres": 34.72
+                },
+                {
+                    "OwnerName": "USA IN TRUST / FOUTY",
+                    "NumParcels": 4,
+                    "TotalAcres": 29.119999999999997
+                },
+                {
+                    "OwnerName": "STOPS NORMA HUNTS ARROW USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 27.92
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR TAPIA CONSTANCE JULIA",
+                    "NumParcels": 1,
+                    "TotalAcres": 25.0
+                },
+                {
+                    "OwnerName": "THE UNITED STATES IN TRUST",
+                    "NumParcels": 1,
+                    "TotalAcres": 24.75
+                },
+                {
+                    "OwnerName": "FIGHTER GUTHRIE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 20.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR DONNA CLARICE BELL CORUM",
+                    "NumParcels": 1,
+                    "TotalAcres": 19.66
+                },
+                {
+                    "OwnerName": "LITTLE SHELL TRIBAL ENTERPRISES LLC",
+                    "NumParcels": 1,
+                    "TotalAcres": 12.792
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR GENEVIEVE M VINSON",
+                    "NumParcels": 2,
+                    "TotalAcres": 12.32
+                },
+                {
+                    "OwnerName": "THREE AFFILIATED TRIBES",
+                    "NumParcels": 4,
+                    "TotalAcres": 10.739
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR JANSSEN RICHARD WILLIAM",
+                    "NumParcels": 1,
+                    "TotalAcres": 10.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST/WESTERMAN ROSEMARY",
+                    "NumParcels": 1,
+                    "TotalAcres": 10.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR FUQUA DONNA",
+                    "NumParcels": 1,
+                    "TotalAcres": 9.99
+                },
+                {
+                    "OwnerName": "BISHOP DARLENE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 7.307
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR MARTIN ALICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 6.123
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CHARETTE CHARLES DAVID",
+                    "NumParcels": 1,
+                    "TotalAcres": 5.24
+                },
+                {
+                    "OwnerName": "FRITZLER BRUCE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 5.02
+                },
+                {
+                    "OwnerName": "USA IN TRUST HARDY RONALD A",
+                    "NumParcels": 1,
+                    "TotalAcres": 4.98
+                },
+                {
+                    "OwnerName": "WHITEHIP CLARA USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 4.98
+                },
+                {
+                    "OwnerName": "TRIBE OF FIVE FAMILY TRUST",
+                    "NumParcels": 2,
+                    "TotalAcres": 3.968
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR MATHIAS",
+                    "NumParcels": 3,
+                    "TotalAcres": 3.5420000000000003
+                },
+                {
+                    "OwnerName": "USA IN TRUST/CHARETTE LAURELL E",
+                    "NumParcels": 1,
+                    "TotalAcres": 3.28
+                },
+                {
+                    "OwnerName": "SELAGE TYREE KILO PERSONAL REPRESENTATIVE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 3.19
+                },
+                {
+                    "OwnerName": "ROSE TRIBE TRUST",
+                    "NumParcels": 2,
+                    "TotalAcres": 3.18
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR HERNANDEZ CA",
+                    "NumParcels": 3,
+                    "TotalAcres": 3.1079999999999997
+                },
+                {
+                    "OwnerName": "THE LITTLE SHELL TRIBE",
+                    "NumParcels": 3,
+                    "TotalAcres": 2.6189999999999998
+                },
+                {
+                    "OwnerName": "BOYS & GIRLS CLUB OF THE FLATHEAD RESERVATION & LAKE COUNTY",
+                    "NumParcels": 2,
+                    "TotalAcres": 2.452
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR EUGENE LEE PITTS",
+                    "NumParcels": 1,
+                    "TotalAcres": 2.03
+                },
+                {
+                    "OwnerName": "USA IN TRUST/MCDONALD STEPHEN KELLY",
+                    "NumParcels": 1,
+                    "TotalAcres": 2.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST/BISSON CAMILLE THE HEIRS OF",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.87
+                },
+                {
+                    "OwnerName": "USA IN TRUST / TROSPER THURMAN HOWARD",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.84
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR REVAN L ROGERS",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.63
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR DIANE R CLINE-JOHNSON",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.62
+                },
+                {
+                    "OwnerName": "CROOKED ARM MARGARET USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.61
+                },
+                {
+                    "OwnerName": "USA IN TRUST/ASENCIO JOANNE",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.38
+                },
+                {
+                    "OwnerName": "TRIBELHORN BRENDA A FLEMING",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.27
+                },
+                {
+                    "OwnerName": "FOUR STAR ADRIAN JEROME JR USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.25
+                },
+                {
+                    "OwnerName": "WHITE MARY DOOR USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.201
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR GARDIPEE BARBARA C TRST",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.033
+                },
+                {
+                    "OwnerName": "USA IN TRUST/WALL JULIE CLAIRMONT",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.02
+                },
+                {
+                    "OwnerName": "BELLROCK PAUL & FERN USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.964
+                },
+                {
+                    "OwnerName": "MY TRIBE PROPERTIES LLC",
+                    "NumParcels": 2,
+                    "TotalAcres": 0.675
+                },
+                {
+                    "OwnerName": "USA IN TRUST/MCDONALD TERESA WALL",
+                    "NumParcels": 3,
+                    "TotalAcres": 0.6679999999999999
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR BULL IN SIGHT JOHN JR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.643
+                },
+                {
+                    "OwnerName": "CROOKED ARM PIUS USA IN TRUST FOR",
+                    "NumParcels": 2,
+                    "TotalAcres": 0.642
+                },
+                {
+                    "OwnerName": "USA IN TRUST/MCDONALD THOMAS RICHARD",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.626
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR DALE KEITH GOOD GUN",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.57
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR LIBERTY",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.517
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR LIBERTY DELORAH JANINE HAWKINS",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.517
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR WHITEHIP CLARA",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.503
+                },
+                {
+                    "OwnerName": "TEN BEAR ALONZO USA IN TRUST FOR",
+                    "NumParcels": 2,
+                    "TotalAcres": 0.486
+                },
+                {
+                    "OwnerName": "TRIBE DANIEL E & AMANDA J",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.482
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR MARY C SPANG",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.482
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR OVERCAST MEMORY",
+                    "NumParcels": 2,
+                    "TotalAcres": 0.482
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR PHYLIS LA FEVER",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.482
+                },
+                {
+                    "OwnerName": "KA NAI TA PI WA A TRIBAL CORPORATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.466
+                },
+                {
+                    "OwnerName": "LAFORGE GILBERT JR USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.402
+                },
+                {
+                    "OwnerName": "SHANE SARAH JANE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.367
+                },
+                {
+                    "OwnerName": "MEDICINEHORSE JULIA HIGH HAWK USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.359
+                },
+                {
+                    "OwnerName": "DAVIES ALICE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.344
+                },
+                {
+                    "OwnerName": "GOODLUCK RALPH USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.331
+                },
+                {
+                    "OwnerName": "CARNEY LORI USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.321
+                },
+                {
+                    "OwnerName": "FIGHTS WELL KNOWN STEPHEN ESTATE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.321
+                },
+                {
+                    "OwnerName": "MCCOMAS AGNES CUMMINS USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.321
+                },
+                {
+                    "OwnerName": "RIDES HORSE SAMUEL SR & GARY USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.321
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR BEAR GOES TO OTHER GROUND",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.321
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR DREAMER DONALD R &",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.321
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR ROUND FACE JUNE ESTATE",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.321
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR TERRI TORGERSON",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.321
+                },
+                {
+                    "OwnerName": "LITTLE SHELLS TRIBE OF CHIPPEWA INDIANS OF MT",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.298
+                },
+                {
+                    "OwnerName": "STEFFES MARJORIE YELLOWTAIL USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.289
+                },
+                {
+                    "OwnerName": "TRIBE CHARLES BROWN TRUSTEE",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.275
+                },
+                {
+                    "OwnerName": "BOYS AND GIRLS CLUB OF THE FLATHEAD RESERVATION AND LAKE COUNTY",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.258
+                },
+                {
+                    "OwnerName": "TRIBE CORINNE C",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.248
+                },
+                {
+                    "OwnerName": "USA IN TRUST/GARCIA EVELYN GILSON",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.246
+                },
+                {
+                    "OwnerName": "WELL KNOWN FIGHTS USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.241
+                },
+                {
+                    "OwnerName": "HOGAN PEARL USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.232
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR BEAUMONT EDWINA",
+                    "NumParcels": 2,
+                    "TotalAcres": 0.232
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR JOHN MORALES JR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.225
+                },
+                {
+                    "OwnerName": "COVERSUP FRANK USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.186
+                },
+                {
+                    "OwnerName": "LITTLE OWL BERTHA BENDS ESTATE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.184
+                },
+                {
+                    "OwnerName": "STOPS ARLIE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.177
+                },
+                {
+                    "OwnerName": "JEFFERSON NANCY BIRD USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.172
+                },
+                {
+                    "OwnerName": "NOMEE GRETCHEN BULL WEASEL USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.172
+                },
+                {
+                    "OwnerName": "OLD BULL LAWRENCE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.172
+                },
+                {
+                    "OwnerName": "STOPS ROGER ESTATE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.172
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA IN TRUST FOR JAQUELINE DEMPSEY",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.163
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR FORKER MYRTLE",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.163
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR ST GERMAINE",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.163
+                },
+                {
+                    "OwnerName": "COSTA LAVERN USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "CROOKED ARM PHILOMENA FIVE USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "DREAMER ETHELINE F USA IN TRUST FOR &",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "KELLY WILLIAM USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "LAFORGE MARY USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "MEDICINE HORSE FAMILY HEIRS USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "MEDICINE HORSE WILLIS JR USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "RED STAR & BEAR TUSK ETAL USA IN TRUST",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "RED STAR & BEAR TUSK FAMILY HEIRS USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "ROUNDFACE FAMILY HEIRS USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "TEN BEAR MARY BEARGROUND USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR DUST EDNA",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR JANET &",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR MICHEL WILBERT",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR WANDA M STRONG",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                },
+                {
+                    "OwnerName": "TRIBE, MARK & STEPHANIE",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.152
+                },
+                {
+                    "OwnerName": "LINCOLN ALBERT WILSON USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.135
+                },
+                {
+                    "OwnerName": "BRIGHT WINGS AMY USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.129
+                },
+                {
+                    "OwnerName": "WHITEMAN JEANETTA HUNTS ARROW USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.127
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR BIRDRATTLER HAROLD & EVELYN",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.115
+                },
+                {
+                    "OwnerName": "HUNTS ARROW ALLEN USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.08
+                },
+                {
+                    "OwnerName": "PLENTY HAWK PHILIP USA IN TRUST FOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.08
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CAYE ROSEMARY",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.034
+                },
+                {
+                    "OwnerName": "TRIBE CHARLES BROWN & VIRGINIA WARD",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR OLIVER K DUPUIS",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST/MATTE SARA J",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.0
+                }
+            ]
+        },
+        {
+            "Rank": 6,
+            "Landholder": "Crow Tribe / trust land",
+            "Jurisdiction": "Tribal/individual trust",
+            "NumParcels": 4542,
+            "TotalAcres": 1476068.655,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "USA IN TRUST FOR CROW TRIBE",
+                    "NumParcels": 3922,
+                    "TotalAcres": 1318376.803
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR THE CROW TRIBE OF MONTANA",
+                    "NumParcels": 328,
+                    "TotalAcres": 116011.12700000001
+                },
+                {
+                    "OwnerName": "CROW TRIBE OF INDIANS",
+                    "NumParcels": 182,
+                    "TotalAcres": 25114.741
+                },
+                {
+                    "OwnerName": "CROW TRIBE (OFF RES)",
+                    "NumParcels": 69,
+                    "TotalAcres": 9776.923
+                },
+                {
+                    "OwnerName": "CROW TRIBE OF INDIANS SOAP CREEK",
+                    "NumParcels": 12,
+                    "TotalAcres": 3335.52
+                },
+                {
+                    "OwnerName": "CROW TRIBE OF INDIANS THE",
+                    "NumParcels": 15,
+                    "TotalAcres": 3327.067
+                },
+                {
+                    "OwnerName": "CROW TRIBE OF MONTANA",
+                    "NumParcels": 1,
+                    "TotalAcres": 120.0
+                },
+                {
+                    "OwnerName": "CROW INDIAN RESERVATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 3.67
+                },
+                {
+                    "OwnerName": "CROW TRIBE THE",
+                    "NumParcels": 10,
+                    "TotalAcres": 2.326
+                },
+                {
+                    "OwnerName": "CROW TRIBE",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.248
+                },
+                {
+                    "OwnerName": "CROW TRIBE OF INDIANS (RENNER PROPERTY)",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.23
+                }
+            ]
+        },
+        {
+            "Rank": 7,
+            "Landholder": "U.S. Fish and Wildlife Service",
+            "Jurisdiction": "Federal",
+            "NumParcels": 2358,
+            "TotalAcres": 946922.898,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "USDI FISH AND WILDLIFE SERVICE",
+                    "NumParcels": 1254,
+                    "TotalAcres": 578963.512
+                },
+                {
+                    "OwnerName": "USDI FISH WILDLIFE SERVICE",
+                    "NumParcels": 444,
+                    "TotalAcres": 162903.60100000002
+                },
+                {
+                    "OwnerName": "USDI FISH WILDLIFE SERVICES",
+                    "NumParcels": 245,
+                    "TotalAcres": 92776.022
+                },
+                {
+                    "OwnerName": "USDI FISH & WILDLIFE SERVICE",
+                    "NumParcels": 296,
+                    "TotalAcres": 86034.51699999999
+                },
+                {
+                    "OwnerName": "USDI FISH & WILDLIFE SERVICES",
+                    "NumParcels": 44,
+                    "TotalAcres": 12769.69
+                },
+                {
+                    "OwnerName": "FISH & WILDLIFE SERVICE",
+                    "NumParcels": 17,
+                    "TotalAcres": 4288.4490000000005
+                },
+                {
+                    "OwnerName": "FISH AND WILDLIFE SERVICE",
+                    "NumParcels": 11,
+                    "TotalAcres": 1815.0
+                },
+                {
+                    "OwnerName": "USA DEPT OF INTERIOR FISH & WILDLIFE SERVICE",
+                    "NumParcels": 5,
+                    "TotalAcres": 1400.471
+                },
+                {
+                    "OwnerName": "US FISH & WILDLIFE SERVICE",
+                    "NumParcels": 9,
+                    "TotalAcres": 1336.89
+                },
+                {
+                    "OwnerName": "U S FISH & WILDLIFE SERVICE",
+                    "NumParcels": 5,
+                    "TotalAcres": 1050.78
+                },
+                {
+                    "OwnerName": "USDI FISH AND WILDLIFE",
+                    "NumParcels": 2,
+                    "TotalAcres": 760.0
+                },
+                {
+                    "OwnerName": "USDI-FISH AND WILDLIFE SERVICE",
+                    "NumParcels": 2,
+                    "TotalAcres": 486.42
+                },
+                {
+                    "OwnerName": "USA FISH & WILDLIFE",
+                    "NumParcels": 2,
+                    "TotalAcres": 481.31399999999996
+                },
+                {
+                    "OwnerName": "US FISH & WILDLIFE",
+                    "NumParcels": 1,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "USA DEPT OF FISH AND WILDLIFE SERVICE",
+                    "NumParcels": 2,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "USA FISH & WILDLIFE SERVICE",
+                    "NumParcels": 4,
+                    "TotalAcres": 281.19
+                },
+                {
+                    "OwnerName": "UNITED STATES FISH & WILDLIFE SERVICE",
+                    "NumParcels": 4,
+                    "TotalAcres": 270.408
+                },
+                {
+                    "OwnerName": "DEPT OF INTERIOR FISH AND WILDLIFE SERVICE",
+                    "NumParcels": 2,
+                    "TotalAcres": 199.20999999999998
+                },
+                {
+                    "OwnerName": "USA FISH & WILDLIFE SERVICES",
+                    "NumParcels": 1,
+                    "TotalAcres": 138.93
+                },
+                {
+                    "OwnerName": "USDI FISH WILDLIFE & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 89.14
+                },
+                {
+                    "OwnerName": "USDI FISH AND WILDLIFE SERVICE (FEDERAL)",
+                    "NumParcels": 2,
+                    "TotalAcres": 76.044
+                },
+                {
+                    "OwnerName": "UNITED STATE OF AMERICA - FISH & WILDLIFE SERVICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 57.64
+                },
+                {
+                    "OwnerName": "USA DEPT OF THE INTERIOR FISH & WILDLIFE SERVICES",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "USDI FISH & WILDLIFE",
+                    "NumParcels": 1,
+                    "TotalAcres": 39.87
+                },
+                {
+                    "OwnerName": "USA - FISH & WILDLIFE SERVICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 21.3
+                },
+                {
+                    "OwnerName": "USA, FISH & WILDLIFE SERVICES",
+                    "NumParcels": 1,
+                    "TotalAcres": 2.5
+                }
+            ]
+        },
+        {
+            "Rank": 8,
+            "Landholder": "Montana DNRC / state trust lands",
+            "Jurisdiction": "State of Montana",
+            "NumParcels": 2628,
+            "TotalAcres": 824725.4410000003,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "STATE OF MONTANA - TRUST",
+                    "NumParcels": 466,
+                    "TotalAcres": 152671.71
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DNRC",
+                    "NumParcels": 326,
+                    "TotalAcres": 113141.558
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA STATE BOARD OF LAND COMMISSIONERS",
+                    "NumParcels": 164,
+                    "TotalAcres": 80252.562
+                },
+                {
+                    "OwnerName": "STATE OF MT TRUST LAND",
+                    "NumParcels": 140,
+                    "TotalAcres": 68763.042
+                },
+                {
+                    "OwnerName": "STATE OF MT DNRC",
+                    "NumParcels": 195,
+                    "TotalAcres": 66160.937
+                },
+                {
+                    "OwnerName": "DEPT OF STATE LANDS",
+                    "NumParcels": 133,
+                    "TotalAcres": 62943.65
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA STATE LANDS",
+                    "NumParcels": 311,
+                    "TotalAcres": 61425.362
+                },
+                {
+                    "OwnerName": "DNRC SCHOOL TRUST LAND",
+                    "NumParcels": 309,
+                    "TotalAcres": 55589.332
+                },
+                {
+                    "OwnerName": "DNRC",
+                    "NumParcels": 97,
+                    "TotalAcres": 33233.336
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF STATE LANDS",
+                    "NumParcels": 62,
+                    "TotalAcres": 30572.05
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF NATURAL RESOURCES",
+                    "NumParcels": 44,
+                    "TotalAcres": 19476.977
+                },
+                {
+                    "OwnerName": "ST MT STATE BOARD OF LAND COMMISSIONERS",
+                    "NumParcels": 22,
+                    "TotalAcres": 13398.32
+                },
+                {
+                    "OwnerName": "STATE LANDS MT DEPT OF",
+                    "NumParcels": 36,
+                    "TotalAcres": 12324.139000000001
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF NATURAL RESOURCES",
+                    "NumParcels": 34,
+                    "TotalAcres": 11539.62
+                },
+                {
+                    "OwnerName": "D N R C",
+                    "NumParcels": 29,
+                    "TotalAcres": 7800.903
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF NATURAL RESOURCES & CONSERVATION",
+                    "NumParcels": 31,
+                    "TotalAcres": 6116.915
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF NATURAL RESOURCES",
+                    "NumParcels": 14,
+                    "TotalAcres": 5796.6
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT. OF STATE LANDS",
+                    "NumParcels": 4,
+                    "TotalAcres": 2400.0
+                },
+                {
+                    "OwnerName": "STATE LANDS",
+                    "NumParcels": 6,
+                    "TotalAcres": 2007.766
+                },
+                {
+                    "OwnerName": "STATE BOARD OF LAND COMMISSIONERS",
+                    "NumParcels": 5,
+                    "TotalAcres": 1920.0
+                },
+                {
+                    "OwnerName": "MT DEPT OF STATE LANDS",
+                    "NumParcels": 8,
+                    "TotalAcres": 1640.152
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF STATE LANDS",
+                    "NumParcels": 6,
+                    "TotalAcres": 1629.6100000000001
+                },
+                {
+                    "OwnerName": "DEPT OF NATURAL RESOURCES",
+                    "NumParcels": 3,
+                    "TotalAcres": 1512.58
+                },
+                {
+                    "OwnerName": "ST OF MT, STATE OF LAND COMMISSIONERS",
+                    "NumParcels": 5,
+                    "TotalAcres": 1473.8
+                },
+                {
+                    "OwnerName": "DEPT STATE LANDS",
+                    "NumParcels": 2,
+                    "TotalAcres": 945.9200000000001
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF NATURAL RESOURCES & CONSERVATION",
+                    "NumParcels": 4,
+                    "TotalAcres": 930.308
+                },
+                {
+                    "OwnerName": "DEPT OF NATURAL RESOURCES & CONSERVATION",
+                    "NumParcels": 3,
+                    "TotalAcres": 854.55
+                },
+                {
+                    "OwnerName": "D N R C TRUST MANAGEMENT",
+                    "NumParcels": 2,
+                    "TotalAcres": 800.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA NATURAL RESOURCES",
+                    "NumParcels": 1,
+                    "TotalAcres": 666.06
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA- TRUST",
+                    "NumParcels": 1,
+                    "TotalAcres": 640.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTATNA DEPT OF STATE LANDS",
+                    "NumParcels": 1,
+                    "TotalAcres": 640.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA SCHOOL TRUST LAND",
+                    "NumParcels": 1,
+                    "TotalAcres": 590.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA TRUSTEE",
+                    "NumParcels": 3,
+                    "TotalAcres": 540.932
+                },
+                {
+                    "OwnerName": "DNRC (FKA)",
+                    "NumParcels": 2,
+                    "TotalAcres": 478.44
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF NATURAL RESOURCES-DN",
+                    "NumParcels": 1,
+                    "TotalAcres": 470.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANT DEPT OF STATE LANDS",
+                    "NumParcels": 4,
+                    "TotalAcres": 448.161
+                },
+                {
+                    "OwnerName": "ST MT DEPT OF NATURAL RESOURCES & CONSERVATION",
+                    "NumParcels": 51,
+                    "TotalAcres": 413.194
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA BOARD OF LAND COMMISSIONERS",
+                    "NumParcels": 6,
+                    "TotalAcres": 367.92
+                },
+                {
+                    "OwnerName": "NATURAL RESOURCES & CONSERVATION DEPT OF",
+                    "NumParcels": 1,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA - STATE BOARD OF LAND COMMISSIONERS",
+                    "NumParcels": 4,
+                    "TotalAcres": 299.094
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF NATURAL RESOURCES & CONSERVATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 272.65
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF NATURAL RESOURCES AND CONSERVATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 215.75
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF STATE LANDS",
+                    "NumParcels": 2,
+                    "TotalAcres": 182.188
+                },
+                {
+                    "OwnerName": "DNRC - ANACONDA",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.0
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF NATURAL RESOURCES & CONS",
+                    "NumParcels": 1,
+                    "TotalAcres": 159.92
+                },
+                {
+                    "OwnerName": "MT STATE BOARD OF LAND COMMISSIONERS",
+                    "NumParcels": 4,
+                    "TotalAcres": 155.001
+                },
+                {
+                    "OwnerName": "ST OF MONTANA DEPT OF STATE LANDS",
+                    "NumParcels": 1,
+                    "TotalAcres": 78.923
+                },
+                {
+                    "OwnerName": "MONTANA BOARD OF LAND COMMISIONERS",
+                    "NumParcels": 1,
+                    "TotalAcres": 68.31
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA-DNRC",
+                    "NumParcels": 55,
+                    "TotalAcres": 58.92
+                },
+                {
+                    "OwnerName": "MONTANA STATE OF DEPT OF STATE LANDS",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA-LANDS SECTION",
+                    "NumParcels": 1,
+                    "TotalAcres": 22.059
+                },
+                {
+                    "OwnerName": "MONTANA DEPT NATURAL RESOURCES",
+                    "NumParcels": 2,
+                    "TotalAcres": 21.97
+                },
+                {
+                    "OwnerName": "STATE TRUST LANDS- DNRC",
+                    "NumParcels": 3,
+                    "TotalAcres": 21.831
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DNRC TRUST LAND",
+                    "NumParcels": 3,
+                    "TotalAcres": 20.83
+                },
+                {
+                    "OwnerName": "MONTANA BOARD OF LAND COMMISSIONERS",
+                    "NumParcels": 2,
+                    "TotalAcres": 12.549999999999999
+                },
+                {
+                    "OwnerName": "MT DEPT OF NATURAL RESOURCES & CONSERVAT",
+                    "NumParcels": 2,
+                    "TotalAcres": 12.488
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA, BOARD OF LAND COMMISSIONERS",
+                    "NumParcels": 1,
+                    "TotalAcres": 9.986
+                },
+                {
+                    "OwnerName": "DNRC SCHOOL TRUST",
+                    "NumParcels": 1,
+                    "TotalAcres": 9.5
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA STATE BOARD OF LAND COMMISSIONERS TRUST LAND DIVISION",
+                    "NumParcels": 1,
+                    "TotalAcres": 3.3
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA - DNRC",
+                    "NumParcels": 1,
+                    "TotalAcres": 2.001
+                },
+                {
+                    "OwnerName": "DNRC SHCOOL TRUST LAND",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.51
+                },
+                {
+                    "OwnerName": "ST OF MT, DEPT OF NATURAL RESOURCES",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.241
+                },
+                {
+                    "OwnerName": "D N R C WATER RESOURCES",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.013
+                },
+                {
+                    "OwnerName": "ST OF MT DEPT NATURAL RESOURCES & CONSERVATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.0
+                },
+                {
+                    "OwnerName": "ST OF MT STATE BOARD OF LAND COMMISSIONERS",
+                    "NumParcels": 2,
+                    "TotalAcres": 0.0
+                }
+            ]
+        },
+        {
+            "Rank": 9,
+            "Landholder": "Fort Belknap Indian Community / trust land",
+            "Jurisdiction": "Tribal/individual trust",
+            "NumParcels": 1338,
+            "TotalAcres": 576855.2729999999,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "FORT BELKNAP INDIAN RESERVATION",
+                    "NumParcels": 1114,
+                    "TotalAcres": 527471.014
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR FORT BELKNAP",
+                    "NumParcels": 134,
+                    "TotalAcres": 34212.037
+                },
+                {
+                    "OwnerName": "FORT BELKNAP INDIAN COMMUNITY",
+                    "NumParcels": 65,
+                    "TotalAcres": 12926.839
+                },
+                {
+                    "OwnerName": "FORT BELKNAP INDIAN COMMUNITY COUNCIL",
+                    "NumParcels": 11,
+                    "TotalAcres": 1676.621
+                },
+                {
+                    "OwnerName": "FORT BELKNAP TRIBE",
+                    "NumParcels": 3,
+                    "TotalAcres": 320.18
+                },
+                {
+                    "OwnerName": "FORT BELKNAP COMMUNITY COUNCIL",
+                    "NumParcels": 1,
+                    "TotalAcres": 225.0
+                },
+                {
+                    "OwnerName": "FORT BELKNAP COMMUNITY",
+                    "NumParcels": 1,
+                    "TotalAcres": 20.0
+                },
+                {
+                    "OwnerName": "FORT BELKNAP PLANNING & DEVELOPMENT CORP",
+                    "NumParcels": 3,
+                    "TotalAcres": 2.048
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR FORT BELKNAP INDIAN COM",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.19
+                },
+                {
+                    "OwnerName": "FORT BELKNAP COMMUNITY ECONOMIC DEVELOPMENT CORP INC",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.344
+                },
+                {
+                    "OwnerName": "FORT BELKNAP PLANNING AND DEVELOPMENT CORPORATION",
+                    "NumParcels": 4,
+                    "TotalAcres": 0.0
+                }
+            ]
+        },
+        {
+            "Rank": 10,
+            "Landholder": "U.S. National Park Service",
+            "Jurisdiction": "Federal",
+            "NumParcels": 1214,
+            "TotalAcres": 540901.311,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "USDI NATIONAL PARK SERVICE",
+                    "NumParcels": 1106,
+                    "TotalAcres": 538407.9239999999
+                },
+                {
+                    "OwnerName": "NATIONAL PARK SERVICE",
+                    "NumParcels": 12,
+                    "TotalAcres": 1303.0549999999998
+                },
+                {
+                    "OwnerName": "USA BIGHORN CANYON NRA",
+                    "NumParcels": 95,
+                    "TotalAcres": 1189.589
+                },
+                {
+                    "OwnerName": "U S A-NAT'L PARK SERVICE",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.743
+                }
+            ]
+        },
+        {
+            "Rank": 11,
+            "Landholder": "Fort Peck Assiniboine and Sioux Tribes / trust land",
+            "Jurisdiction": "Tribal/individual trust",
+            "NumParcels": 2281,
+            "TotalAcres": 495371.615,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "FORT PECK INDIAN RESERVATION",
+                    "NumParcels": 1165,
+                    "TotalAcres": 276798.128
+                },
+                {
+                    "OwnerName": "FORT PECK ASSINIBOINE & SIOUX TRIBES",
+                    "NumParcels": 878,
+                    "TotalAcres": 195308.59699999998
+                },
+                {
+                    "OwnerName": "ASSINIBOINE & SIOUX TRIBES OF THE FORT PECK INDIAN RESERVATION MONTANA",
+                    "NumParcels": 63,
+                    "TotalAcres": 7403.916
+                },
+                {
+                    "OwnerName": "ASSINIBOINE & SIOUX TRIBES OF THE FORT PECK INDIAN RESERATION MONTANA",
+                    "NumParcels": 30,
+                    "TotalAcres": 3405.315
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR ASSINIBOINE & SIOUX TRIBES",
+                    "NumParcels": 25,
+                    "TotalAcres": 2674.425
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR THE ASSINIBOINE & SIOUX TRIBES",
+                    "NumParcels": 9,
+                    "TotalAcres": 1921.472
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR THE ASSINIBOINE & SIOUX TRIBES OF THE",
+                    "NumParcels": 27,
+                    "TotalAcres": 1794.4950000000001
+                },
+                {
+                    "OwnerName": "ASSINIBOINE & SIOUX TRIBES OF THE FORT PECK INDIAN RESERVATION",
+                    "NumParcels": 16,
+                    "TotalAcres": 1484.6190000000001
+                },
+                {
+                    "OwnerName": "ASSINIBOINE & SIOUX TRIBES",
+                    "NumParcels": 17,
+                    "TotalAcres": 1206.05
+                },
+                {
+                    "OwnerName": "ASSINIBOINE AND SIOUX TRIBES",
+                    "NumParcels": 13,
+                    "TotalAcres": 831.441
+                },
+                {
+                    "OwnerName": "ASSINIBOINE AND SIOUX TRIBES OF THE FORT PECK RESERVATION",
+                    "NumParcels": 13,
+                    "TotalAcres": 710.264
+                },
+                {
+                    "OwnerName": "ASSINIBOINE & SIOUX TRIBES OF FORT PECK",
+                    "NumParcels": 3,
+                    "TotalAcres": 640.0
+                },
+                {
+                    "OwnerName": "ASSINIBOINE & SIOUX TRIBES OF THE",
+                    "NumParcels": 7,
+                    "TotalAcres": 374.508
+                },
+                {
+                    "OwnerName": "ASSINIBOINE & SIOUX TRIBES OF THE FORT PECK RESERVATION MONTANA",
+                    "NumParcels": 2,
+                    "TotalAcres": 320.298
+                },
+                {
+                    "OwnerName": "FORT PECK ASSINIBOINE & SOUIX TRIBES",
+                    "NumParcels": 1,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "ASSINIBOINE & SIOUX TRIBES OF THE FORT PECK RESERVATION",
+                    "NumParcels": 5,
+                    "TotalAcres": 120.83300000000001
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA IN TRUST FOR ASSINIBOINE & SIOUX TRIBES OF FORT PECK",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "FORT PECK TRIBES",
+                    "NumParcels": 5,
+                    "TotalAcres": 17.117
+                },
+                {
+                    "OwnerName": "ASSINIBOINE SIOUX TRIBES OF THE",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.137
+                }
+            ]
+        },
+        {
+            "Rank": 12,
+            "Landholder": "Northern Cheyenne Tribe / trust land",
+            "Jurisdiction": "Tribal/individual trust",
+            "NumParcels": 897,
+            "TotalAcres": 441964.953,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "NORTHERN CHEYENNE TRIBE",
+                    "NumParcels": 442,
+                    "TotalAcres": 236679.583
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR NORTHERN CHEYENNE TRIBE",
+                    "NumParcels": 399,
+                    "TotalAcres": 198754.081
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR THE NORTHERN CHEYENNE TRIBE",
+                    "NumParcels": 37,
+                    "TotalAcres": 5915.745
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CHEYENNES",
+                    "NumParcels": 10,
+                    "TotalAcres": 610.1089999999999
+                },
+                {
+                    "OwnerName": "NORTHERN CHEYENNE TRIBE OF LAME DEER",
+                    "NumParcels": 2,
+                    "TotalAcres": 3.843
+                },
+                {
+                    "OwnerName": "NORTHERN CHEYENNE TRIBE INC",
+                    "NumParcels": 6,
+                    "TotalAcres": 1.431
+                },
+                {
+                    "OwnerName": "NORTHERN CHEYENNE TRIBAL HOUSING AUTHORITY",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.161
+                }
+            ]
+        },
+        {
+            "Rank": 13,
+            "Landholder": "Montana Fish, Wildlife and Parks",
+            "Jurisdiction": "State of Montana",
+            "NumParcels": 1817,
+            "TotalAcres": 411668.6350000001,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "MONTANA DEPT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 342,
+                    "TotalAcres": 68235.753
+                },
+                {
+                    "OwnerName": "MONTANA FISH WILDLIFE & PARKS",
+                    "NumParcels": 164,
+                    "TotalAcres": 47184.569
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FISH & GAME",
+                    "NumParcels": 132,
+                    "TotalAcres": 45890.128
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 152,
+                    "TotalAcres": 32305.28
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF FISH WILDLIFE",
+                    "NumParcels": 91,
+                    "TotalAcres": 31957.766
+                },
+                {
+                    "OwnerName": "MONTANA FISH WILDLIFE AND PARKS",
+                    "NumParcels": 75,
+                    "TotalAcres": 30550.488
+                },
+                {
+                    "OwnerName": "MONTANA FISH & GAME DEPT",
+                    "NumParcels": 81,
+                    "TotalAcres": 22705.462999999996
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH",
+                    "NumParcels": 64,
+                    "TotalAcres": 18112.529000000002
+                },
+                {
+                    "OwnerName": "MT DEPT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 77,
+                    "TotalAcres": 14781.868
+                },
+                {
+                    "OwnerName": "STATE OF MT FISH & GAME",
+                    "NumParcels": 33,
+                    "TotalAcres": 11823.839
+                },
+                {
+                    "OwnerName": "MONTANA STATE OF FISH & GAME COMMISSION",
+                    "NumParcels": 26,
+                    "TotalAcres": 8505.612
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF FISH WILDLIFE & PARK",
+                    "NumParcels": 26,
+                    "TotalAcres": 7941.258
+                },
+                {
+                    "OwnerName": "MONTANA DPT FISH WILDLIFE PARKS",
+                    "NumParcels": 18,
+                    "TotalAcres": 6845.9
+                },
+                {
+                    "OwnerName": "MONTANA FISH & GAME COMMISSION",
+                    "NumParcels": 51,
+                    "TotalAcres": 5065.818
+                },
+                {
+                    "OwnerName": "STATE OF MT FISH & GAME DEPT",
+                    "NumParcels": 17,
+                    "TotalAcres": 4662.62
+                },
+                {
+                    "OwnerName": "DEPT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 45,
+                    "TotalAcres": 4416.443
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH, WILDLIFE AND PARKS",
+                    "NumParcels": 10,
+                    "TotalAcres": 3976.822
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA  FISH & GAME",
+                    "NumParcels": 10,
+                    "TotalAcres": 3936.55
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 24,
+                    "TotalAcres": 3360.996
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH WILDLIFE AND PARKS",
+                    "NumParcels": 35,
+                    "TotalAcres": 3325.9980000000005
+                },
+                {
+                    "OwnerName": "MONTANA STATE FISH & GAME COMMISSION",
+                    "NumParcels": 17,
+                    "TotalAcres": 3310.4079999999994
+                },
+                {
+                    "OwnerName": "STATE OF MT DEPT OF FISH WILDLIFE & PARK",
+                    "NumParcels": 11,
+                    "TotalAcres": 2597.42
+                },
+                {
+                    "OwnerName": "STATE OF MT FISH & GAME COMMISSION",
+                    "NumParcels": 11,
+                    "TotalAcres": 2434.5
+                },
+                {
+                    "OwnerName": "MT DEPT FISH WILDLIFE & PARKS",
+                    "NumParcels": 17,
+                    "TotalAcres": 2339.13
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FWP",
+                    "NumParcels": 14,
+                    "TotalAcres": 2277.147
+                },
+                {
+                    "OwnerName": "MONTANA DPT FISH WILDLIFE PKS",
+                    "NumParcels": 7,
+                    "TotalAcres": 1883.22
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH WILDLIFE &",
+                    "NumParcels": 6,
+                    "TotalAcres": 1800.0430000000001
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 15,
+                    "TotalAcres": 1682.724
+                },
+                {
+                    "OwnerName": "MONTANA DEPT FISH WILDLIFE &",
+                    "NumParcels": 7,
+                    "TotalAcres": 1562.23
+                },
+                {
+                    "OwnerName": "MT DEPT OF FISH/WILDLIFE/PARKS",
+                    "NumParcels": 6,
+                    "TotalAcres": 1557.09
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF FISH & WILDLIFE",
+                    "NumParcels": 3,
+                    "TotalAcres": 1284.36
+                },
+                {
+                    "OwnerName": "STATE OF MT DEPT FISH WILDLIFE & PARKS",
+                    "NumParcels": 5,
+                    "TotalAcres": 1225.77
+                },
+                {
+                    "OwnerName": "MONTANA DEPT FISH WILDLIFE & PARKS",
+                    "NumParcels": 18,
+                    "TotalAcres": 1048.616
+                },
+                {
+                    "OwnerName": "DEPT OF FISH WILDLIFE AND PARKS",
+                    "NumParcels": 10,
+                    "TotalAcres": 885.654
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF FISH WILDLIFE AND PARKS",
+                    "NumParcels": 12,
+                    "TotalAcres": 842.6270000000001
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA ACTING BY & THROUGH ITS DEPT OF FWP",
+                    "NumParcels": 7,
+                    "TotalAcres": 640.09
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF FISH WILDLIFE AND PARKS",
+                    "NumParcels": 16,
+                    "TotalAcres": 640.0
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH WILDLIFE  & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 624.28
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF FW&PARKS",
+                    "NumParcels": 9,
+                    "TotalAcres": 586.73
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH, WILDLIFE & PARKS",
+                    "NumParcels": 4,
+                    "TotalAcres": 464.348
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FBO STATE FISH & GAME COMMISSION",
+                    "NumParcels": 4,
+                    "TotalAcres": 417.21000000000004
+                },
+                {
+                    "OwnerName": "STATE FISH & GAME COMMISSION",
+                    "NumParcels": 8,
+                    "TotalAcres": 409.27
+                },
+                {
+                    "OwnerName": "FISH & WILDLIFE PARKS",
+                    "NumParcels": 3,
+                    "TotalAcres": 371.26
+                },
+                {
+                    "OwnerName": "MONTANA DPT FISH WILDLIFE PRKS",
+                    "NumParcels": 6,
+                    "TotalAcres": 369.428
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT F W & P",
+                    "NumParcels": 4,
+                    "TotalAcres": 365.12
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FISH & GAME DEPT",
+                    "NumParcels": 1,
+                    "TotalAcres": 358.8
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FISH AND GAME",
+                    "NumParcels": 1,
+                    "TotalAcres": 357.5
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH WILDLIFE AND",
+                    "NumParcels": 16,
+                    "TotalAcres": 330.679
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH & WILDLIFE &",
+                    "NumParcels": 3,
+                    "TotalAcres": 324.44
+                },
+                {
+                    "OwnerName": "MT DEPT OF FISH WILDLIFE AND PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 317.74
+                },
+                {
+                    "OwnerName": "MONTANA STATE FISH WILDLIFE & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 316.37
+                },
+                {
+                    "OwnerName": "MONTANA STATE DEPT OF FISH & GAME",
+                    "NumParcels": 5,
+                    "TotalAcres": 256.73
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT FISH WILDLIFE PARK",
+                    "NumParcels": 2,
+                    "TotalAcres": 189.52
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH & WILDLIFE & PARKS",
+                    "NumParcels": 6,
+                    "TotalAcres": 176.84199999999998
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 8,
+                    "TotalAcres": 168.833
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT OF FISH WILDLIFE & P",
+                    "NumParcels": 1,
+                    "TotalAcres": 161.0
+                },
+                {
+                    "OwnerName": "MONTANA STATE OF DEPARTMENT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 160.0
+                },
+                {
+                    "OwnerName": "MONTANA  FISH WILDLIFE & PARKS",
+                    "NumParcels": 2,
+                    "TotalAcres": 156.56
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPARTMENT OF FISH",
+                    "NumParcels": 2,
+                    "TotalAcres": 149.12
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FISH & GAME COMMISSION",
+                    "NumParcels": 8,
+                    "TotalAcres": 148.335
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FISH WILDLIFE & PARKS",
+                    "NumParcels": 3,
+                    "TotalAcres": 103.31
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF FISH, WLDLF & PARKS",
+                    "NumParcels": 4,
+                    "TotalAcres": 96.38
+                },
+                {
+                    "OwnerName": "MONTANA STATE OF FISH & GAME",
+                    "NumParcels": 4,
+                    "TotalAcres": 77.66000000000001
+                },
+                {
+                    "OwnerName": "DEPT OF FISH WILDLIFE & PARKS LAND SEC",
+                    "NumParcels": 7,
+                    "TotalAcres": 71.738
+                },
+                {
+                    "OwnerName": "DEPT OF FISH & GAME",
+                    "NumParcels": 2,
+                    "TotalAcres": 66.25
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FISH WILDLIFE PARKS",
+                    "NumParcels": 4,
+                    "TotalAcres": 63.54
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF FW & PARKS",
+                    "NumParcels": 2,
+                    "TotalAcres": 48.85
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF FISH, WILDLIFE",
+                    "NumParcels": 3,
+                    "TotalAcres": 47.81
+                },
+                {
+                    "OwnerName": "MT DEPT OF FISH WILDLIFE & PARK",
+                    "NumParcels": 4,
+                    "TotalAcres": 47.76
+                },
+                {
+                    "OwnerName": "MONTANA DEPARTMENT FISH WILDLIFE AND PARKS",
+                    "NumParcels": 3,
+                    "TotalAcres": 38.129
+                },
+                {
+                    "OwnerName": "MT DEPARTMENT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 4,
+                    "TotalAcres": 36.095
+                },
+                {
+                    "OwnerName": "MONTANA FISH & GAME DEPARTMENT",
+                    "NumParcels": 2,
+                    "TotalAcres": 34.65
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF FISH & GAME",
+                    "NumParcels": 1,
+                    "TotalAcres": 28.39
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FISH WILDLIFE AND PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 22.34
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF FWP",
+                    "NumParcels": 3,
+                    "TotalAcres": 20.33
+                },
+                {
+                    "OwnerName": "MONTANA DEPT FISH/WILDLIFE & PARKS",
+                    "NumParcels": 3,
+                    "TotalAcres": 16.698
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF FISH, WILDLIFE & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 12.8
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT FISH & GAME",
+                    "NumParcels": 1,
+                    "TotalAcres": 9.8
+                },
+                {
+                    "OwnerName": "MONTANA DEPTARTMENT OF FISH WILDLIFE & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 8.15
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF FISH WILDLIFE",
+                    "NumParcels": 2,
+                    "TotalAcres": 7.540000000000001
+                },
+                {
+                    "OwnerName": "STATE OF MONTANAFISH & GAME",
+                    "NumParcels": 1,
+                    "TotalAcres": 7.23
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT FISH WILDLIFE & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 7.09
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA FWP",
+                    "NumParcels": 3,
+                    "TotalAcres": 4.52
+                },
+                {
+                    "OwnerName": "STATE FISH WILDLIFE & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 4.39
+                },
+                {
+                    "OwnerName": "MONTANA DEPT OF FWP",
+                    "NumParcels": 1,
+                    "TotalAcres": 3.46
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF FISH WILDLIFE &",
+                    "NumParcels": 1,
+                    "TotalAcres": 3.04
+                },
+                {
+                    "OwnerName": "STATE OF MONTANA DEPT OF F W & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 2.07
+                },
+                {
+                    "OwnerName": "DEPT OF FISH, WILDLIFE & PARKS",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.771
+                }
+            ]
+        },
+        {
+            "Rank": 14,
+            "Landholder": "U.S. Department of Agriculture (agency unspecified)",
+            "Jurisdiction": "Federal",
+            "NumParcels": 774,
+            "TotalAcres": 391625.564,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "USDA",
+                    "NumParcels": 319,
+                    "TotalAcres": 181530.879
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF AGRICULTURE",
+                    "NumParcels": 312,
+                    "TotalAcres": 148780.9
+                },
+                {
+                    "OwnerName": "UNITED STATES DEPARTMENT OF AGRICULTURE",
+                    "NumParcels": 125,
+                    "TotalAcres": 55717.006
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA DEPT OF AG",
+                    "NumParcels": 13,
+                    "TotalAcres": 5246.53
+                },
+                {
+                    "OwnerName": "USA DEPT OF AGRICULTURE",
+                    "NumParcels": 2,
+                    "TotalAcres": 245.22
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA DEPT OF AGRICUL",
+                    "NumParcels": 1,
+                    "TotalAcres": 80.0
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA - DEPT OF AG",
+                    "NumParcels": 2,
+                    "TotalAcres": 25.029
+                }
+            ]
+        },
+        {
+            "Rank": 15,
+            "Landholder": "Confederated Salish and Kootenai Tribes / trust land",
+            "Jurisdiction": "Tribal/individual trust",
+            "NumParcels": 1447,
+            "TotalAcres": 294882.702,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "CONFEDERATED SALISH & KOOTENAI TRIBES",
+                    "NumParcels": 532,
+                    "TotalAcres": 140959.052
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CSKT",
+                    "NumParcels": 497,
+                    "TotalAcres": 88060.053
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR THE CSKT OF THE FLATHEAD RESERVATION",
+                    "NumParcels": 36,
+                    "TotalAcres": 18608.489999999998
+                },
+                {
+                    "OwnerName": "CONF SALISH & KOOTENAI TRIBES",
+                    "NumParcels": 72,
+                    "TotalAcres": 17463.696
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH & KOOTENAI TRIBES OF THE FLATHEAD NATION",
+                    "NumParcels": 53,
+                    "TotalAcres": 11518.369999999999
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CKST",
+                    "NumParcels": 10,
+                    "TotalAcres": 5704.7
+                },
+                {
+                    "OwnerName": "CSKT",
+                    "NumParcels": 19,
+                    "TotalAcres": 2683.2419999999997
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CONFEDERATED SALISH & KOOTENAI TRIBES",
+                    "NumParcels": 21,
+                    "TotalAcres": 2675.366
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH & KOOTENAI TRIBES OF THE FLATHEAD RESERVATION",
+                    "NumParcels": 33,
+                    "TotalAcres": 2079.672
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR THE CONFEDERATED SALISH & KOOTENAI TRIBES",
+                    "NumParcels": 17,
+                    "TotalAcres": 1543.6399999999999
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH AND KOOTENAI TRIBES",
+                    "NumParcels": 27,
+                    "TotalAcres": 1234.6670000000001
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH & KOOTENAI TRIBE",
+                    "NumParcels": 10,
+                    "TotalAcres": 492.20300000000003
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA IN TRUST FOR THE CONFEDERATED SALISH & KOOTENAI TRIBES",
+                    "NumParcels": 1,
+                    "TotalAcres": 385.07
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CONFEDERATED SALISH AND KOOTENAI TRIBES",
+                    "NumParcels": 2,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR THE CONFEDERATED SALISH AND KOOTENAI TRIBES OF THE FLATHEAD NAT",
+                    "NumParcels": 3,
+                    "TotalAcres": 199.192
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH & KOOTENAI TRIBES OF",
+                    "NumParcels": 5,
+                    "TotalAcres": 160.43
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH & KOOTENAI TRIBES OF FLATHEAD RESERVATION",
+                    "NumParcels": 4,
+                    "TotalAcres": 116.33
+                },
+                {
+                    "OwnerName": "SALISH & KOOTENAI COLLEGE INC",
+                    "NumParcels": 1,
+                    "TotalAcres": 108.39
+                },
+                {
+                    "OwnerName": "SALISH KOOTENAI COLLEGE",
+                    "NumParcels": 1,
+                    "TotalAcres": 80.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST/CSKT",
+                    "NumParcels": 1,
+                    "TotalAcres": 80.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST/CONF SALISH & KOOTENAI TRIBES",
+                    "NumParcels": 7,
+                    "TotalAcres": 79.224
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH AND KOOTENAI TRIBES OF THE FLATHEAD NATION",
+                    "NumParcels": 4,
+                    "TotalAcres": 78.92
+                },
+                {
+                    "OwnerName": "SALISH & KOOTENAI HOUSING AUTHORITY",
+                    "NumParcels": 70,
+                    "TotalAcres": 71.379
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH & KOOTENAI",
+                    "NumParcels": 2,
+                    "TotalAcres": 46.297
+                },
+                {
+                    "OwnerName": "SALISH KOOTENAI COLLEGE INC",
+                    "NumParcels": 5,
+                    "TotalAcres": 35.730000000000004
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH KOOTENAI TRIBES",
+                    "NumParcels": 1,
+                    "TotalAcres": 30.74
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH & KOOTENAI TRIBES OF FLATHEAD NATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 20.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST CSKT",
+                    "NumParcels": 1,
+                    "TotalAcres": 20.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST/CONFEDERATED SALISH &",
+                    "NumParcels": 1,
+                    "TotalAcres": 9.72
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR CSKT 3/4 INT",
+                    "NumParcels": 1,
+                    "TotalAcres": 4.57
+                },
+                {
+                    "OwnerName": "USA IN TRUST CONF SALISH & KOOTENAI TRIBES",
+                    "NumParcels": 1,
+                    "TotalAcres": 4.0
+                },
+                {
+                    "OwnerName": "USA in Trust for Edward V Matt 1/2 Interest & USA in Trust for CSKT 1/2 Interest",
+                    "NumParcels": 1,
+                    "TotalAcres": 2.543
+                },
+                {
+                    "OwnerName": "CONFEDERATED AND SALISH KOOTENAI",
+                    "NumParcels": 1,
+                    "TotalAcres": 2.5
+                },
+                {
+                    "OwnerName": "CONFEDERATED SALISH & KOOTNEAI TRIBES",
+                    "NumParcels": 1,
+                    "TotalAcres": 2.17
+                },
+                {
+                    "OwnerName": "SALISH KOOTENAI COLLEGE FOUNDATION INC",
+                    "NumParcels": 1,
+                    "TotalAcres": 1.13
+                },
+                {
+                    "OwnerName": "USA IN TRUST/CONF SALISH & KOOTENAI",
+                    "NumParcels": 2,
+                    "TotalAcres": 0.642
+                },
+                {
+                    "OwnerName": "CONFEDRATED SALISH & KOOTENAI TRIBES",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.321
+                },
+                {
+                    "OwnerName": "SALISH KOOTENAI HOUSING AUTHORITY",
+                    "NumParcels": 1,
+                    "TotalAcres": 0.253
+                }
+            ]
+        },
+        {
+            "Rank": 16,
+            "Landholder": "U.S. Bureau of Reclamation",
+            "Jurisdiction": "Federal",
+            "NumParcels": 646,
+            "TotalAcres": 102521.789,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "USDI BUREAU OF RECLAMATION",
+                    "NumParcels": 320,
+                    "TotalAcres": 56024.115000000005
+                },
+                {
+                    "OwnerName": "BUREAU OF RECLAMATION GREENFIELD IRRIGATION DIST",
+                    "NumParcels": 97,
+                    "TotalAcres": 18607.499
+                },
+                {
+                    "OwnerName": "BUREAU OF RECLAMATION",
+                    "NumParcels": 151,
+                    "TotalAcres": 18430.600000000002
+                },
+                {
+                    "OwnerName": "U S BUREAU OF RECLAMATION",
+                    "NumParcels": 43,
+                    "TotalAcres": 5216.799
+                },
+                {
+                    "OwnerName": "US BUREAU OF RECLAMATION",
+                    "NumParcels": 24,
+                    "TotalAcres": 3022.602
+                },
+                {
+                    "OwnerName": "UNITED STATES OF AMERICA BUREAU OF RECLAMATION",
+                    "NumParcels": 2,
+                    "TotalAcres": 379.40599999999995
+                },
+                {
+                    "OwnerName": "USDI-BUREAU OF RECLAMATION",
+                    "NumParcels": 7,
+                    "TotalAcres": 354.14799999999997
+                },
+                {
+                    "OwnerName": "BUREAU OF RECLAMATION DEPT OF INT",
+                    "NumParcels": 1,
+                    "TotalAcres": 322.0
+                },
+                {
+                    "OwnerName": "BUREAU OF RECLAMATION DEPT OF INTERIOR",
+                    "NumParcels": 1,
+                    "TotalAcres": 164.62
+                }
+            ]
+        },
+        {
+            "Rank": 17,
+            "Landholder": "U.S. Department of the Interior (agency unspecified)",
+            "Jurisdiction": "Federal",
+            "NumParcels": 368,
+            "TotalAcres": 100648.751,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "DEPARTMENT OF INTERIOR",
+                    "NumParcels": 331,
+                    "TotalAcres": 93672.7
+                },
+                {
+                    "OwnerName": "UNITED STATES DEPT OF THE INTERIOR",
+                    "NumParcels": 17,
+                    "TotalAcres": 3286.134
+                },
+                {
+                    "OwnerName": "DEPARTMENT OF THE INTERIOR",
+                    "NumParcels": 7,
+                    "TotalAcres": 2896.4700000000003
+                },
+                {
+                    "OwnerName": "UNITED STATES DEPT OF INTERIOR",
+                    "NumParcels": 2,
+                    "TotalAcres": 400.0
+                },
+                {
+                    "OwnerName": "UNITED STATES DEPARTMENT OF INTERIOR",
+                    "NumParcels": 4,
+                    "TotalAcres": 245.0
+                },
+                {
+                    "OwnerName": "U S DEPARTMENT OF INTERIOR",
+                    "NumParcels": 3,
+                    "TotalAcres": 118.463
+                },
+                {
+                    "OwnerName": "USA DEPARTMENT OF INTERIOR",
+                    "NumParcels": 4,
+                    "TotalAcres": 29.983999999999998
+                }
+            ]
+        },
+        {
+            "Rank": 18,
+            "Landholder": "Blackfeet Nation / trust land",
+            "Jurisdiction": "Tribal/individual trust",
+            "NumParcels": 692,
+            "TotalAcres": 87625.76599999997,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "BLACKFEET TRIBE OF THE BLACKFEET INDIAN RESERVATION",
+                    "NumParcels": 300,
+                    "TotalAcres": 43167.814
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE",
+                    "NumParcels": 219,
+                    "TotalAcres": 22644.917
+                },
+                {
+                    "OwnerName": "THE BLACKFEET TRIBE OF THE BLACKFEET INDIAN RESERVATION",
+                    "NumParcels": 71,
+                    "TotalAcres": 14248.78
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE OF THE BLACKFEET INDIAN RESERVATION OF MONTANA",
+                    "NumParcels": 12,
+                    "TotalAcres": 1820.814
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE OF THE",
+                    "NumParcels": 49,
+                    "TotalAcres": 1811.248
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE OF THE BLACKFEET",
+                    "NumParcels": 15,
+                    "TotalAcres": 1343.647
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE OF THE BLACKFEET INDIAN RESERVATION MONTANA",
+                    "NumParcels": 7,
+                    "TotalAcres": 1012.5
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE OF THE BLACKFEET NATION",
+                    "NumParcels": 6,
+                    "TotalAcres": 634.906
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE THE",
+                    "NumParcels": 2,
+                    "TotalAcres": 320.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR BLACKFEET TRIBE OF THE BLACKFEET INDIAN RESERVATION",
+                    "NumParcels": 2,
+                    "TotalAcres": 280.4
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE OF INDIANS OF THE BLACKFEET INDIAN RESERVATION",
+                    "NumParcels": 4,
+                    "TotalAcres": 178.12
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE OF BLACKFEET RESERVATION",
+                    "NumParcels": 2,
+                    "TotalAcres": 95.09
+                },
+                {
+                    "OwnerName": "THE BLACKFEET TRIBE OF THE BLACKEET INDIAN RESERVATION",
+                    "NumParcels": 1,
+                    "TotalAcres": 40.0
+                },
+                {
+                    "OwnerName": "BLACKFEET TRIBE OF THE BLACKFEET INDIAN",
+                    "NumParcels": 1,
+                    "TotalAcres": 20.0
+                },
+                {
+                    "OwnerName": "USA IN TRUST FOR BLACKFEET TRIBE",
+                    "NumParcels": 1,
+                    "TotalAcres": 7.53
+                }
+            ]
+        },
+        {
+            "Rank": 19,
+            "Landholder": "Chippewa Cree Tribe / trust land",
+            "Jurisdiction": "Tribal/individual trust",
+            "NumParcels": 82,
+            "TotalAcres": 36385.24,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "ROCKY BOYS INDIAN RESERVATION",
+                    "NumParcels": 66,
+                    "TotalAcres": 33361.31
+                },
+                {
+                    "OwnerName": "CHIPPEWA CREE TRIBE",
+                    "NumParcels": 13,
+                    "TotalAcres": 2598.69
+                },
+                {
+                    "OwnerName": "CHIPPEWA CREE TRIBE OF THE ROCKY BOY RES",
+                    "NumParcels": 2,
+                    "TotalAcres": 305.24
+                },
+                {
+                    "OwnerName": "CHIPPEWA CREE TRIBE OF",
+                    "NumParcels": 1,
+                    "TotalAcres": 120.0
+                }
+            ]
+        },
+        {
+            "Rank": 20,
+            "Landholder": "Montana Department of Corrections",
+            "Jurisdiction": "State of Montana",
+            "NumParcels": 74,
+            "TotalAcres": 32030.845,
+            "RecordedOwnerNames": [
+                {
+                    "OwnerName": "MONTANA STATE PRISON",
+                    "NumParcels": 74,
+                    "TotalAcres": 32030.845
+                }
+            ]
+        }
+    ]
+}

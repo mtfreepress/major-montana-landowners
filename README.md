@@ -43,6 +43,7 @@ relative to the repository. The main workflow is:
 ```sh
 python major-landowners-final-analysis.py
 python major-landowners-final-summary.py
+python major-public-landowners.py
 ```
 
 It creates `outputs/` and `geodata-outputs/` automatically. GeoJSON exports
@@ -53,10 +54,17 @@ that optional output is now enabled with `--write-cleaned`.
 Selected owners' parcels are grouped into transitive landholding blocks using
 a one-mile proximity threshold in EPSG:5070. Use `--block-gap-miles` to change
 the threshold. Parcel exports include block IDs, source-acre totals, and parcel
-counts. `geodata-outputs/top-10-blocks.geojson` and the backward-compatible
-`geodata-outputs/top-10-combined.geojson` contain the corresponding unbuffered
-parcel dissolves for the top ten owners, ordered by owner rank and block ID.
-The itemized parcel records remain in `outputs/top-10-itemized.csv`.
+counts. `geodata-outputs/top-10-combined.geojson` remains the detailed,
+parcel-level top-ten layer. `geodata-outputs/merged-top-10-block.geojson`
+contains the corresponding unbuffered parcel dissolves, with one feature per
+landholding block (including interior holes), ordered by owner rank and block
+ID. The itemized parcel records remain in `outputs/top-10-itemized.csv`.
+
+`major-public-landowners.py` consolidates federal, Montana state, tribal/trust,
+and local-government owner-name variants. It writes a ranked public-landholder
+report to `outputs/major-public-landowners.txt` and structured results to
+`outputs/major-public-landowners.json`. Federal totals explicitly exclude both
+tribal-government land and individual Indian trust records.
 
 ## Analysis notes
 

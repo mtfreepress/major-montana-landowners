@@ -1,0 +1,213 @@
+MONTANA'S MAJOR PUBLIC LANDHOLDERS
+===================================
+
+Calculated from Montana Cadastral parcel attributes. Acreage is summed
+from the source TotalAcres field. Agency spelling variants are grouped.
+Tribal governments and individual Indian trust records are reported
+separately and are excluded from the federal total.
+
+These results describe ownership names in the cadastral snapshot, not an
+authoritative surface-management or land-status inventory. Generic names
+such as USA or STATE OF MONTANA cannot be assigned to a specific agency.
+
+Dataset: 921,024 parcels / 90,329,361 cadastral acres
+
+TOTALS BY JURISDICTION
+----------------------
+Federal (tribal/trust land excluded): 25,340,647 acres across 64,600 parcels (28.1% of cadastral acres)
+State of Montana: 5,627,789 acres across 18,017 parcels (6.2% of cadastral acres)
+Tribal/individual trust: 5,293,057 acres across 19,830 parcels (5.9% of cadastral acres)
+Local government: 140,164 acres across 11,184 parcels (0.2% of cadastral acres)
+
+RANKING
+-------
+#1 U.S. Forest Service
+  Federal / 11,744,388 acres / 22,311 parcels
+  Largest recorded owner-name components:
+    - USDA FOREST SERVICE: 8,773,925 acres / 16,655 parcels
+    - USA - FOREST SERVICE: 1,115,837 acres / 2,161 parcels
+    - US FOREST SERVICE: 461,349 acres / 858 parcels
+    - FOREST SERVICE: 422,334 acres / 765 parcels
+    - CUSTER NATIONAL FOREST: 343,360 acres / 622 parcels
+    - plus 26 smaller name variants
+
+#2 U.S. Bureau of Land Management
+  Federal / 7,697,391 acres / 26,587 parcels
+  Largest recorded owner-name components:
+    - USDI BUREAU OF LAND MANAGEMENT: 5,579,614 acres / 18,045 parcels
+    - BUREAU OF LAND MANAGEMENT: 732,302 acres / 2,736 parcels
+    - USDI BUREAU OF LAND MGMT (RESERVED): 421,204 acres / 1,913 parcels
+    - BLM: 256,535 acres / 969 parcels
+    - USDI BUREAU OF LAND MANGEMENT: 227,791 acres / 696 parcels
+    - plus 45 smaller name variants
+
+#3 State of Montana (agency unspecified)
+  State of Montana / 4,341,213 acres / 12,765 parcels
+  Largest recorded owner-name components:
+    - STATE OF MONTANA: 4,263,284 acres / 12,218 parcels
+    - MONTANA STATE OF: 65,619 acres / 223 parcels
+    - STATE OF MONTANA - AG EXPERIMENT STATION: 1,985 acres / 8 parcels
+    - STATE OF MONTANA DEPT OF MONTANA: 1,921 acres / 3 parcels
+    - STATE OF MONTANA DEPT OF MILITARY AFFAIRS: 1,854 acres / 10 parcels
+    - plus 76 smaller name variants
+
+#4 United States (agency unspecified)
+  Federal / 3,785,981 acres / 9,906 parcels
+  Largest recorded owner-name components:
+    - UNITED STATES OF AMERICA: 1,883,691 acres / 5,593 parcels
+    - USA: 1,828,459 acres / 3,985 parcels
+    - U S A: 61,253 acres / 282 parcels
+    - USDI-UNITED STATES OF AMERICA: 5,897 acres / 12 parcels
+    - UNITED STATES OF AMRERICA: 2,911 acres / 6 parcels
+    - plus 7 smaller name variants
+
+#5 Tribal or individual trust land (unspecified)
+  Tribal/individual trust / 1,870,476 acres / 8,458 parcels
+  Largest recorded owner-name components:
+    - USA IN TRUST: 1,139,956 acres / 5,279 parcels
+    - TRIBAL: 239,348 acres / 1,005 parcels
+    - USA IN TRUST FOR: 229,317 acres / 970 parcels
+    - FLATHEAD INDIAN RESERVATION: 183,856 acres / 534 parcels
+    - FLATHEAD RESERVATION: 34,086 acres / 95 parcels
+    - plus 197 smaller name variants
+
+#6 Crow Tribe / trust land
+  Tribal/individual trust / 1,476,069 acres / 4,542 parcels
+  Largest recorded owner-name components:
+    - USA IN TRUST FOR CROW TRIBE: 1,318,377 acres / 3,922 parcels
+    - USA IN TRUST FOR THE CROW TRIBE OF MONTANA: 116,011 acres / 328 parcels
+    - CROW TRIBE OF INDIANS: 25,115 acres / 182 parcels
+    - CROW TRIBE (OFF RES): 9,777 acres / 69 parcels
+    - CROW TRIBE OF INDIANS SOAP CREEK: 3,336 acres / 12 parcels
+    - plus 6 smaller name variants
+
+#7 U.S. Fish and Wildlife Service
+  Federal / 946,923 acres / 2,358 parcels
+  Largest recorded owner-name components:
+    - USDI FISH AND WILDLIFE SERVICE: 578,964 acres / 1,254 parcels
+    - USDI FISH WILDLIFE SERVICE: 162,904 acres / 444 parcels
+    - USDI FISH WILDLIFE SERVICES: 92,776 acres / 245 parcels
+    - USDI FISH & WILDLIFE SERVICE: 86,035 acres / 296 parcels
+    - USDI FISH & WILDLIFE SERVICES: 12,770 acres / 44 parcels
+    - plus 21 smaller name variants
+
+#8 Montana DNRC / state trust lands
+  State of Montana / 824,725 acres / 2,628 parcels
+  Largest recorded owner-name components:
+    - STATE OF MONTANA - TRUST: 152,672 acres / 466 parcels
+    - STATE OF MONTANA DNRC: 113,142 acres / 326 parcels
+    - STATE OF MONTANA STATE BOARD OF LAND COMMISSIONERS: 80,253 acres / 164 parcels
+    - STATE OF MT TRUST LAND: 68,763 acres / 140 parcels
+    - STATE OF MT DNRC: 66,161 acres / 195 parcels
+    - plus 60 smaller name variants
+
+#9 Fort Belknap Indian Community / trust land
+  Tribal/individual trust / 576,855 acres / 1,338 parcels
+  Largest recorded owner-name components:
+    - FORT BELKNAP INDIAN RESERVATION: 527,471 acres / 1,114 parcels
+    - USA IN TRUST FOR FORT BELKNAP: 34,212 acres / 134 parcels
+    - FORT BELKNAP INDIAN COMMUNITY: 12,927 acres / 65 parcels
+    - FORT BELKNAP INDIAN COMMUNITY COUNCIL: 1,677 acres / 11 parcels
+    - FORT BELKNAP TRIBE: 320 acres / 3 parcels
+    - plus 6 smaller name variants
+
+#10 U.S. National Park Service
+  Federal / 540,901 acres / 1,214 parcels
+  Largest recorded owner-name components:
+    - USDI NATIONAL PARK SERVICE: 538,408 acres / 1,106 parcels
+    - NATIONAL PARK SERVICE: 1,303 acres / 12 parcels
+    - USA BIGHORN CANYON NRA: 1,190 acres / 95 parcels
+    - U S A-NAT'L PARK SERVICE: 1 acres / 1 parcels
+
+#11 Fort Peck Assiniboine and Sioux Tribes / trust land
+  Tribal/individual trust / 495,372 acres / 2,281 parcels
+  Largest recorded owner-name components:
+    - FORT PECK INDIAN RESERVATION: 276,798 acres / 1,165 parcels
+    - FORT PECK ASSINIBOINE & SIOUX TRIBES: 195,309 acres / 878 parcels
+    - ASSINIBOINE & SIOUX TRIBES OF THE FORT PECK INDIAN RESERVATION MONTANA: 7,404 acres / 63 parcels
+    - ASSINIBOINE & SIOUX TRIBES OF THE FORT PECK INDIAN RESERATION MONTANA: 3,405 acres / 30 parcels
+    - USA IN TRUST FOR ASSINIBOINE & SIOUX TRIBES: 2,674 acres / 25 parcels
+    - plus 14 smaller name variants
+
+#12 Northern Cheyenne Tribe / trust land
+  Tribal/individual trust / 441,965 acres / 897 parcels
+  Largest recorded owner-name components:
+    - NORTHERN CHEYENNE TRIBE: 236,680 acres / 442 parcels
+    - USA IN TRUST FOR NORTHERN CHEYENNE TRIBE: 198,754 acres / 399 parcels
+    - USA IN TRUST FOR THE NORTHERN CHEYENNE TRIBE: 5,916 acres / 37 parcels
+    - USA IN TRUST FOR CHEYENNES: 610 acres / 10 parcels
+    - NORTHERN CHEYENNE TRIBE OF LAME DEER: 4 acres / 2 parcels
+    - plus 2 smaller name variants
+
+#13 Montana Fish, Wildlife and Parks
+  State of Montana / 411,669 acres / 1,817 parcels
+  Largest recorded owner-name components:
+    - MONTANA DEPT OF FISH WILDLIFE & PARKS: 68,236 acres / 342 parcels
+    - MONTANA FISH WILDLIFE & PARKS: 47,185 acres / 164 parcels
+    - STATE OF MONTANA FISH & GAME: 45,890 acres / 132 parcels
+    - MONTANA DEPARTMENT OF FISH WILDLIFE & PARKS: 32,305 acres / 152 parcels
+    - MONTANA DEPT OF FISH WILDLIFE: 31,958 acres / 91 parcels
+    - plus 83 smaller name variants
+
+#14 U.S. Department of Agriculture (agency unspecified)
+  Federal / 391,626 acres / 774 parcels
+  Largest recorded owner-name components:
+    - USDA: 181,531 acres / 319 parcels
+    - DEPARTMENT OF AGRICULTURE: 148,781 acres / 312 parcels
+    - UNITED STATES DEPARTMENT OF AGRICULTURE: 55,717 acres / 125 parcels
+    - UNITED STATES OF AMERICA DEPT OF AG: 5,247 acres / 13 parcels
+    - USA DEPT OF AGRICULTURE: 245 acres / 2 parcels
+    - plus 2 smaller name variants
+
+#15 Confederated Salish and Kootenai Tribes / trust land
+  Tribal/individual trust / 294,883 acres / 1,447 parcels
+  Largest recorded owner-name components:
+    - CONFEDERATED SALISH & KOOTENAI TRIBES: 140,959 acres / 532 parcels
+    - USA IN TRUST FOR CSKT: 88,060 acres / 497 parcels
+    - USA IN TRUST FOR THE CSKT OF THE FLATHEAD RESERVATION: 18,608 acres / 36 parcels
+    - CONF SALISH & KOOTENAI TRIBES: 17,464 acres / 72 parcels
+    - CONFEDERATED SALISH & KOOTENAI TRIBES OF THE FLATHEAD NATION: 11,518 acres / 53 parcels
+    - plus 33 smaller name variants
+
+#16 U.S. Bureau of Reclamation
+  Federal / 102,522 acres / 646 parcels
+  Largest recorded owner-name components:
+    - USDI BUREAU OF RECLAMATION: 56,024 acres / 320 parcels
+    - BUREAU OF RECLAMATION GREENFIELD IRRIGATION DIST: 18,607 acres / 97 parcels
+    - BUREAU OF RECLAMATION: 18,431 acres / 151 parcels
+    - U S BUREAU OF RECLAMATION: 5,217 acres / 43 parcels
+    - US BUREAU OF RECLAMATION: 3,023 acres / 24 parcels
+    - plus 4 smaller name variants
+
+#17 U.S. Department of the Interior (agency unspecified)
+  Federal / 100,649 acres / 368 parcels
+  Largest recorded owner-name components:
+    - DEPARTMENT OF INTERIOR: 93,673 acres / 331 parcels
+    - UNITED STATES DEPT OF THE INTERIOR: 3,286 acres / 17 parcels
+    - DEPARTMENT OF THE INTERIOR: 2,896 acres / 7 parcels
+    - UNITED STATES DEPT OF INTERIOR: 400 acres / 2 parcels
+    - UNITED STATES DEPARTMENT OF INTERIOR: 245 acres / 4 parcels
+    - plus 2 smaller name variants
+
+#18 Blackfeet Nation / trust land
+  Tribal/individual trust / 87,626 acres / 692 parcels
+  Largest recorded owner-name components:
+    - BLACKFEET TRIBE OF THE BLACKFEET INDIAN RESERVATION: 43,168 acres / 300 parcels
+    - BLACKFEET TRIBE: 22,645 acres / 219 parcels
+    - THE BLACKFEET TRIBE OF THE BLACKFEET INDIAN RESERVATION: 14,249 acres / 71 parcels
+    - BLACKFEET TRIBE OF THE BLACKFEET INDIAN RESERVATION OF MONTANA: 1,821 acres / 12 parcels
+    - BLACKFEET TRIBE OF THE: 1,811 acres / 49 parcels
+    - plus 10 smaller name variants
+
+#19 Chippewa Cree Tribe / trust land
+  Tribal/individual trust / 36,385 acres / 82 parcels
+  Largest recorded owner-name components:
+    - ROCKY BOYS INDIAN RESERVATION: 33,361 acres / 66 parcels
+    - CHIPPEWA CREE TRIBE: 2,599 acres / 13 parcels
+    - CHIPPEWA CREE TRIBE OF THE ROCKY BOY RES: 305 acres / 2 parcels
+    - CHIPPEWA CREE TRIBE OF: 120 acres / 1 parcels
+
+#20 Montana Department of Corrections
+  State of Montana / 32,031 acres / 74 parcels
+  Largest recorded owner-name components:
+    - MONTANA STATE PRISON: 32,031 acres / 74 parcels
