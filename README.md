@@ -28,9 +28,43 @@ Key fields in the parcel data include the following:
 
 ## Analysis tools
 
-This analysis is done with iPython notebooks using Python's pandas/geopandas libraries. Eric was running code inside Microsoft VS Code, using a Python 3.13.0 kernal.
+The analysis uses Python 3.13 with pandas, GeoPandas, and Pyogrio. Create a
+virtual environment and install the dependencies before running a script:
 
-The `geodataframe.explore()` command we're using to generate interactive "slippy" maps may take some extra configuration depending on how you're running Python. Documentation on that [is here](https://geopandas.org/en/stable/docs/user_guide/interactive_mapping.html) — I had to do a bit of troubleshooting to get the Folium library the interactives use running without issue on my system.
+```sh
+python3.13 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+Run commands from any directory; the scripts resolve data and output paths
+relative to the repository. The main workflow is:
+
+```sh
+python major-landowners-final-analysis.py
+python major-landowners-final-summary.py
+python major-public-landowners.py
+```
+
+It creates `outputs/` and `geodata-outputs/` automatically. GeoJSON exports
+use up to four independent writer threads by default. Use `--workers 1` for a
+serial export. The old workflow also wrote a very large intermediate shapefile;
+that optional output is now enabled with `--write-cleaned`.
+
+Selected owners' parcels are grouped into transitive landholding blocks using
+a one-mile proximity threshold in EPSG:5070. Use `--block-gap-miles` to change
+the threshold. Parcel exports include block IDs, source-acre totals, and parcel
+counts. `geodata-outputs/top-10-combined.geojson` remains the detailed,
+parcel-level top-ten layer. `geodata-outputs/merged-top-10-block.geojson`
+contains the corresponding unbuffered parcel dissolves, with one feature per
+landholding block (including interior holes), ordered by owner rank and block
+ID. The itemized parcel records remain in `outputs/top-10-itemized.csv`.
+
+`major-public-landowners.py` consolidates federal, Montana state, tribal/trust,
+and local-government owner-name variants. It writes a ranked public-landholder
+report to `outputs/major-public-landowners.txt` and structured results to
+`outputs/major-public-landowners.json`. Federal totals explicitly exclude both
+tribal-government land and individual Indian trust records.
 
 ## Analysis notes
 
@@ -41,12 +75,14 @@ General process: We're using the Cadastral data described above to look for owne
 **Analysis files**
 
 First pass/"naive" analysis —
-- `major-landowners-naive-analysis.ipynb` -- This was our 'first pass' analysis, which simply grouped parcels by `OwnerName`, sums the acreage for each unique private owner, presenting the results as a ranked list. It naively assumes that each unique OwnerName in the dataset is a unique "owner." It's very clear that isn't the best way to do this — Ted Turner, for example, owns some of his properties as `TURNER ENTERPRISES INC` and others as `TURNER LAND HOLDINGS LLC`. Public entities listed in `known-public-landowners.json` are excluded.
+- `major-landowners-naive-analysis.py` -- This was our 'first pass' analysis, which simply grouped parcels by `OwnerName`, sums the acreage for each unique private owner, presenting the results as a ranked list. It naively assumes that each unique OwnerName in the dataset is a unique "owner." It's very clear that isn't the best way to do this — Ted Turner, for example, owns some of his properties as `TURNER ENTERPRISES INC` and others as `TURNER LAND HOLDINGS LLC`. Public entities listed in `known-public-landowners.json` are excluded.
 
 Second pass/final analysis —
-- `shared-address-identification.ipynb` -- A workflow for identifying owner name variants based on ownership addresses. This IDs places where owner name variants share mailing addresses, indicating they belong to the same real-world owner. Output of this was placed manually in `owner-name-cleaning.json`.
-- `major-landowners-final-analysis.ipynb` - Second/final pass analysis that accounts for owner name variations in addition to factors in the first-pass analysis, using name variations specified in `owner-name-groupings.json`. This also exports geodata files for each of the top 20 landowners to `geodata-outputs/`. Output is written to `outputs/final-top-20-list.txt`.
-- `explore.ipynb` -- A scratchpad notebook for one-off analysis, e.g. mapping the parcels associated with specific owners.
+- `shared-address-identification.py` -- A workflow for identifying owner name variants based on ownership addresses. This IDs places where owner name variants share mailing addresses, indicating they belong to the same real-world owner. Output of this was placed manually in `owner-name-grouping.json`.
+- `major-landowners-final-analysis.py` - Second/final pass analysis that accounts for owner name variations in addition to factors in the first-pass analysis, using name variations specified in `owner-name-grouping.json`. This also exports geodata files for each of the top 20 landowners to `geodata-outputs/`. Output is written to `outputs/final-top-20-list.txt`.
+- `major-landowners-final-summary.py` - Uses the final-analysis JSON output to write a reporting-friendly top-20 summary with counties, county acreage shares, parcel statistics, and other potentially useful numbers to `outputs/final-top-20-summary.txt`.
+- `explore.py` -- Summarizes one owner without loading all Montana geometries. Add `--geojson` or `--map-html` to write map-ready output, for example `python explore.py "TED TURNER" --geojson`.
+- `analysis_common.py` -- Shared input validation, path handling, and optimized attribute-only reads used by the scripts.
 
 **Config files** — these are manually curated in a JSON format guide the analysis scripts
 - `known-public-landowners.json` -- Owner names that represent public entities, i.e. federal and state agencies, as well as tribes. Eric produced this by inspection but probably missed some small public landowners that aren't significant for our analysis. There are hundreds of items on this list  because the naming conventions for public agencies appear to be wildly inconsistent.
