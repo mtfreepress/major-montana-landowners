@@ -122,9 +122,10 @@
     STIMSOM LUMBER COMPANY --> 694 acres/ 2 parcels
 
 #13 / N5B CAPITAL
-126,535 acres - 327 parcels
+126,600 acres - 330 parcels
   Includes:
     FLATHEAD RIDGE RANCH LLC --> 22,644 acres/ 69 parcels
+    PAINTED ROCKS CLIFF LLC --> 65 acres/ 3 parcels
     FRR HUBBARD LLC --> 17,493 acres/ 36 parcels
     FRR MURR PEAK LLC --> 16,860 acres/ 42 parcels
     FRR BROWNS MEADOW LLC --> 17,491 acres/ 40 parcels

@@ -16,6 +16,7 @@ from analysis_common import (
     public_landowners,
 )
 
+num_landowners = 10
 
 def create_database(path: Path) -> sqlite3.Connection:
     connection = sqlite3.connect(path)
@@ -32,6 +33,7 @@ def create_database(path: Path) -> sqlite3.Connection:
         """
     )
     return connection
+
 
 
 def store_chunk(
