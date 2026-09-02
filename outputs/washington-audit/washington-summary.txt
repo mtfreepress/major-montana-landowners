@@ -1,0 +1,121 @@
+DENNIS WASHINGTON / WASHINGTON COMPANIES LANDOWNERSHIP AUDIT
+============================================================
+
+Source: /Users/jacobolness/git/MTFP/major-montana-landowners/raw/Montana_Cadastral/OWNERPARCEL.shp
+Source records scanned: 921,024
+Tax year values present: 0, 2026
+Top-20 cutoff: 95,281 acres
+Acreage basis: source TotalAcres, matching the production ranking.
+Scope: current cadastral surface parcels only; no historical acreage, leases,
+mineral-only rights, operating/permit boundaries, or non-cadastral estimates.
+
+CONFIDENCE RULES
+----------------
+confirmed: exact owner-name match to a directly supported person/company registry
+strong_candidate: conditional exact seed plus HQ/shared-address corroboration
+address_candidate: HQ or exact shared-address evidence only; not proof of ownership
+weak_candidate: broad/portfolio/fuzzy discovery requiring independent research
+unrelated: surname-only or known historical/unrelated match; excluded from totals
+
+CONFIRMED / STRONG WASHINGTON-CONTROLLED ENTITIES
+--------------------------------------------------
+
+MONTANA RESOURCES LLC
+  Confidence: confirmed
+  Acres: 8,104.60
+  Parcels: 114
+  Counties: Jefferson | Silver Bow
+  County acreage: Silver Bow: 7898.77 | Jefferson: 205.83
+  Address: 600 SHIELDS AVE, BUTTE, MT, 59701-2705
+  Match basis: exact normalized owner-name match to confirmed registry; broad keyword in OwnerName: MONTANA RESOURCES; exact normalized address shared with a confirmed entity
+
+WASHINGTON LIMESTONE LLC
+  Confidence: strong_candidate
+  Acres: 6,594.73
+  Parcels: 36
+  Counties: Granite
+  County acreage: Granite: 6594.73
+  Address: 101 INTERNATIONAL DR, MISSOULA, MT, 59808-1549 | 101 INTERNATIONAL DRIVE, MISSOULA, MT, 59808
+  Match basis: exact normalized owner-name match to supplied conditional seed; broad keyword in OwnerName: WASHINGTON; broad keyword in OwnerName: LIMESTONE; normalized mailing address matches Washington Companies HQ
+
+GRANT CREEK RANCH LLC
+  Confidence: strong_candidate
+  Acres: 2,107.62
+  Parcels: 23
+  Counties: Missoula
+  County acreage: Missoula: 2107.62
+  Address: 101 INTERNATIONAL DR, ATTN: JOHNNA EISENMANN, MISSOULA, MT, 59808-1549
+  Match basis: exact normalized owner-name match to supplied conditional seed; broad keyword in OwnerName: GRANT CREEK; normalized mailing address matches Washington Companies HQ
+
+MONTANA RESOURCES LLP
+  Confidence: confirmed
+  Acres: 40.00
+  Parcels: 2
+  Counties: Madison
+  County acreage: Madison: 40.00
+  Address: 600 SHIELDS AVE, BUTTE, MT, 59701-2705
+  Match basis: exact normalized owner-name match to confirmed registry; broad keyword in OwnerName: MONTANA RESOURCES; exact normalized address shared with a confirmed entity
+
+GRANT CREEK RANCH  LLC
+  Confidence: strong_candidate
+  Acres: 20.00
+  Parcels: 1
+  Counties: Missoula
+  County acreage: Missoula: 20.00
+  Address: 101 INTERNATIONAL DR, ATTN: JOHNNA EISENMANN, MISSOULA, MT, 59808-1549
+  Match basis: exact normalized owner-name match to supplied conditional seed; broad keyword in OwnerName: GRANT CREEK; normalized mailing address matches Washington Companies HQ
+
+CONFIRMED TOTAL: 8,144.60 acres
+
+INCLUDING STRONG CANDIDATES: 16,866.95 acres
+
+INCLUDING EVERY REMOTELY PLAUSIBLE CANDIDATE: 21,073.72 acres
+
+DISTANCE BELOW TOP-20 CUTOFF
+----------------------------
+Confirmed only: 87,136.40 acres
+Confirmed + strong candidates: 78,414.05 acres
+Every remotely plausible candidate: 74,207.28 acres
+
+SANITY CHECKS
+-------------
+1. Any single plausible owner over 10,000 acres? NO
+2. Confirmed entities collectively exceed 25,000 acres? NO
+3. Confirmed entities collectively exceed 50,000 acres? NO
+4. Confirmed entities exceed the top-20 cutoff? NO
+5. Confirmed + strong candidates exceed the top-20 cutoff? NO
+6. Every remotely plausible candidate exceeds the top-20 cutoff? NO
+7. Address/weak candidates add: 4,206.77 acres
+   Address-only candidates add: 1,060.43 acres
+   Other weak discovery candidates add: 3,146.34 acres
+   Do all address-only candidates change the top-20 conclusion? NO
+
+Largest plausible entity: MONTANA RESOURCES LLC (8,104.60 acres)
+Largest ambiguous entities:
+  BIGHORN LIMESTONE CO: 1,515.20 acres (weak_candidate)
+  MOUNTAIN LION LLC: 956.74 acres (address_candidate)
+Would adding both to confirmed + strong reach the cutoff? NO
+
+DUPLICATION / DATA-QUALITY CHECKS
+---------------------------------
+Candidate parcel IDs repeated in source results: 0
+Extra candidate rows among repeated IDs: 0
+Maximum apparent acreage attributable to those extra rows: 0.00
+Normalized owner names representing multiple original spellings: 2
+Candidate rows with missing TotalAcres after loading: 0
+Original owner spellings are aggregated separately; normalization is used for
+matching and does not itself duplicate parcels or acreage.
+
+OMITTED CURRENT-PORTFOLIO NAME CHECK
+------------------------------------
+Additional names searched: AVIATION PARTNERS, AVIATION PARTNERS INC, BLUE WATER RAIL SERVICES, BLUE WATER RAIL SERVICES LP, SEASPAN CORPORATION, SEASPAN MARINE, SEASPAN SHIPYARDS, SOUTHERN RAILWAY OF BC, SPOKANE MACHINERY
+Matches: none
+These names are flagged for review and are never silently consolidated.
+Supplied-seed variant added and disclosed by this audit: MONTANA RESOURCES LLC
+
+CONCLUSION
+----------
+Confirmed only: 8,144.60 acres (NO top 20)
+Confirmed + strong: 16,866.95 acres (NO top 20)
+All remotely plausible: 21,073.72 acres (NO top 20)
+Even the deliberately generous upper-bound scenario is below the cutoff.
