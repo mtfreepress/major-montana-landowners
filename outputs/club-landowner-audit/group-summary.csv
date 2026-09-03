@@ -1,5 +1,0 @@
-ownership_group,confirmed_acres,confirmed_plus_strong_acres,all_plausible_acres,confirmed_parcels,top20_cutoff,rank_if_confirmed,rank_if_confirmed_plus_strong,rank_if_all_plausible,existing_ranking_match,notes
-CROSSHARBOR / LONE MOUNTAIN,33592.468,34305.367,34658.323,310,95281.11,65,63,61,not present as a consolidated production owner,Project footprints are QA only; homeowner/member lots and operated ski terrain are excluded.
-ROCK CREEK CATTLE COMPANY / FOLEY,26170.817,30563.377,31134.967,143,95281.11,106,84,80,not present as a consolidated production owner,Member parcels are reported from legal/subdivision text but excluded from Foley acreage.
-TERRITORY 1889 / LAKESIDE,1701.258,1701.258,1733.15,27,95281.11,6947,6947,6846,not present as a consolidated production owner,2026 cadastral title is principally Flathead Friends LLC; TAL & PGL is not grouped with Discovery.
-FLATHEAD RIDGE / N5B,126535.01,126535.01,126535.01,327,95281.11,13,13,13,N5B CAPITAL: 126535.01 acres,Same holding already published as N5B CAPITAL; do not create a duplicate owner.
